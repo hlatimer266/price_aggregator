@@ -93,10 +93,39 @@ if __name__ == "__main__":
     ############################################################
 
     ####################### Acer Model 4 #######################
+    #Acer B206HQL - Office Depot
+    office_depot_url4 = "https://www.officedepot.com/a/products/688125/Acer-B6-195-Widescreen-LED-LCD/"
+    # scrape_monitors(office_depot_url4, office_depot_html, "office_depot")
 
+    #Acer B206HQL - Walmart
+    walmart_url_acer4 = "https://www.walmart.com/ip/Refurbished-Acer-19-5-Widescreen-LCD-Monitor-Display-Full-HD-1920-x-1080-8-ms-60-Hz-B206HQL/691509306"
+    # scrape_monitors(walmart_url_acer4, walmart_html_tag_acer, "walmart")
+
+    #Acer B206HQL - monoprice
+    monoprice_url_acer4 = "https://www.monoprice.com/product?p_id=20193"
+    # scrape_monitors(monoprice_url_acer4, monoprice_tag_acer, "monoprice")
+
+    #Acer B206HQL - ebay
+    ebay_url_acer4 = "https://www.ebay.com/p/1951179521"
+    # scrape_monitors(ebay_url_acer4, ebay_tag, "ebay")
     ############################################################
 
     ####################### Acer Model 5 #######################
+    # Acer Acer® B226WL - Office Depot
+    office_depot_url5 = "https://www.officedepot.com/a/products/179614/Acer-B226WL-22-LED-LCD-Monitor/"
+    scrape_monitors(office_depot_url5, office_depot_html, "office_depot")
+
+    # Acer Acer® B226WL - Walmart
+    walmart_url_acer5 = "https://www.walmart.com/ip/1680-Black-250-Monitor-W-100-000-000-1-Million-16-10-22-WSXGA-ms-LED-Speakers-LCD-Adjustable-1050-Acer-B226WL-VGA-24-20-Colors-Angle-5-DVI-x-Nit-16-7/104495078"
+    scrape_monitors(walmart_url_acer5, walmart_html_tag_acer, "walmart")
+
+    # Acer Acer® B226WL - monoprice
+    monoprice_url_acer5 = "https://www.monoprice.com/product?p_id=17996"
+    scrape_monitors(monoprice_url_acer5, monoprice_tag_acer, "monoprice")
+
+    # Acer Acer® B226WL - ebay
+    ebay_url_acer5 = "https://www.ebay.com/p/168538047"
+    scrape_monitors(ebay_url_acer5, ebay_tag, "ebay")
 
     ############################################################
 
