@@ -13,7 +13,18 @@ def scrape_monitors(url,html_tag,vendor):
 
     if vendor == "walmart":
         price = soup.find(class_=html_tag)
-        print(price['content'])
+        try:
+            print(price['content'])
+        except Exception as e:
+            print(e)
+            print("in exception block")
+            time.sleep(20)
+            response = requests.get(url, headers=headers)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            print(soup.prettify())
+            price = soup.find(class_=html_tag)
+            print(price['content'])
+
     elif vendor == "office_depot":
         price = soup.find(class_=html_tag)
         print(price.span.get_text().strip())
@@ -25,7 +36,15 @@ def scrape_monitors(url,html_tag,vendor):
         print(price.get_text().strip())
     elif vendor == "bh":
         price = soup.find(class_=html_tag)
-        print(price.get_text().strip())
+        try:
+            print(price.get_text().strip())
+        except Exception as e:
+            print("in exception block")
+            time.sleep(20)
+            response = requests.get(url, headers=headers)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            price = soup.find(class_=html_tag)
+            print(price.get_text().strip())
     elif vendor == "cdw":
         price = soup.find(class_=html_tag)
         print(price['content'])
