@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
     var AWS = require('aws-sdk');
-    AWS.config.update({accessKeyId: 'xxxx*'
-    , secretAccessKey: 'xxxx*'});
+    AWS.config.update({accessKeyId: ''
+    , secretAccessKey: ''});
     AWS.config.region = "us-east-1"
 
     var lambda = new AWS.Lambda();

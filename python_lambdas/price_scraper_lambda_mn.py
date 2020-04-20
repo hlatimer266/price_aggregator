@@ -49,10 +49,8 @@ def lambda_handler(event, context):
     elif event['vendor'] == "cdw":
         price = soup.find(class_=event['html_tag'])
         print(price['content'])
-
-    
-
-
-
-
-
+        
+    return {
+        'statusCode': 200,
+        'body': json.dumps(str(price.get_text().strip()))
+    }
