@@ -16,7 +16,5 @@ pushd venv/lib/python3.7/site-packages
 popd
 
 pushd python_lambdas
-zip -r scrape_monitors.zip price_scraper_lambda_mn.py
+    zip -r scrape_monitors.zip price_scraper_lambda_mn.py
 popd
-
-mv scrape_monitors.zip ./python_lambdas

@@ -26,41 +26,41 @@ if __name__ == "__main__":
 
     ####################### Lenovo Model 2 #######################
     # Lenovo ThinkVision E2054 - monoprice
-    # mn_url_1 = "https://www.monoprice.com/product?p_id=20534"
-    # mn_html_tag = "sale-price"
-    # ps.scrape_monitors(mn_url_1, mn_html_tag, "monoprice")
+    mn_url_1 = "https://www.monoprice.com/product?p_id=20534"
+    mn_html_tag = "sale-price"
+    ps.scrape_monitors(mn_url_1, mn_html_tag, "monoprice")
 
-    # # Lenovo ThinkVision E2054 - walmart
-    # wl_url_1 = "https://www.walmart.com/ip/LENOVO-ThinkVision-E2054-19-5-Monitor/114165638"
-    # ps.scrape_monitors(wl_url_1, wl_html_tag, "walmart")
+    # Lenovo ThinkVision E2054 - walmart
+    wl_url_1 = "https://www.walmart.com/ip/LENOVO-ThinkVision-E2054-19-5-Monitor/114165638"
+    ps.scrape_monitors(wl_url_1, wl_html_tag, "walmart")
 
-    # # Lenovo ThinkVision E2054 - office depot
-    # od_url_1 = "https://www.officedepot.com/a/products/829283/Lenovo-ThinkVision-E2054-195-LED-Monitor/"
-    # od_html_tag = "unified_price_row unified_sale_price red_price"
-    # ps.scrape_monitors(od_url_1, od_html_tag, "office_depot")
+    # Lenovo ThinkVision E2054 - office depot
+    od_url_1 = "https://www.officedepot.com/a/products/829283/Lenovo-ThinkVision-E2054-195-LED-Monitor/"
+    od_html_tag = "unified_price_row unified_sale_price red_price"
+    ps.scrape_monitors(od_url_1, od_html_tag, "office_depot")
 
-    # # Lenovo ThinkVision E2054 - ebay
-    # eb_url_1 = "https://www.ebay.com/p/1060882873"
-    # ps.scrape_monitors(eb_url_1, eb_html_tag, "ebay")
+    # Lenovo ThinkVision E2054 - ebay
+    eb_url_1 = "https://www.ebay.com/p/1060882873"
+    ps.scrape_monitors(eb_url_1, eb_html_tag, "ebay")
 
     ##############################################################
 
     ####################### Lenovo Model 3 #######################
     # Lenovo ThinkVision s22e-19 - Walmart
-    # wl_url_2 = "https://www.walmart.com/ip/Lenovo-ThinkVision-S22e-19-21-5-inch-LED-Backlit-LCD-Monitor/368006422"
-    # ps.scrape_monitors(wl_url_2, wl_html_tag, "walmart")
+    wl_url_2 = "https://www.walmart.com/ip/Lenovo-ThinkVision-S22e-19-21-5-inch-LED-Backlit-LCD-Monitor/368006422"
+    ps.scrape_monitors(wl_url_2, wl_html_tag, "walmart")
 
-    # # Lenovo ThinkVision s22e-19 - cdw
-    # cdw_url_2 = "https://www.cdw.com/product/lenovo-thinkvision-s22e-19-21.5-fhd-led-backlit-lcd-monitor-black/5442887"
-    # ps.scrape_monitors(cdw_url_2, cdw_html_tag, "cdw")
+    # Lenovo ThinkVision s22e-19 - cdw
+    cdw_url_2 = "https://www.cdw.com/product/lenovo-thinkvision-s22e-19-21.5-fhd-led-backlit-lcd-monitor-black/5442887"
+    ps.scrape_monitors(cdw_url_2, cdw_html_tag, "cdw")
 
-    # # Lenovo ThinkVision s22e-19 - b&h photo 
-    # bh_url_2 = "https://www.bhphotovideo.com/c/product/1464833-REG/lenovo_61c9kcr1us_21_5_thinkvision_s22e_19_led.html"
-    # ps.scrape_monitors(bh_url_2, bh_html_tag, "bh")
+    # Lenovo ThinkVision s22e-19 - b&h photo 
+    bh_url_2 = "https://www.bhphotovideo.com/c/product/1464833-REG/lenovo_61c9kcr1us_21_5_thinkvision_s22e_19_led.html"
+    ps.scrape_monitors(bh_url_2, bh_html_tag, "bh")
 
-    # # Lenovo ThinkVision s22e-19 - ebay
-    # eb_url_2 = "https://www.ebay.com/c/6027687973"
-    # ps.scrape_monitors(eb_url_2, "vi-bin-primary-price__main-price", "ebay")
+    # Lenovo ThinkVision s22e-19 - ebay
+    eb_url_2 = "https://www.ebay.com/c/6027687973"
+    ps.scrape_monitors(eb_url_2, "vi-bin-primary-price__main-price", "ebay")
 
     ##############################################################
 
