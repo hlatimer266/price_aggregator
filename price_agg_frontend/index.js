@@ -8,13 +8,12 @@ app.set('view engine', 'handlebars');
 app.set('port', 3000);
 
 app.use(bodyParser.urlencoded({ extended: false }));
-
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
     var AWS = require('aws-sdk');
-    AWS.config.update({accessKeyId: 'AKIA25CCO4L7FMEMBKWJ'
-    , secretAccessKey: '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'});
+    AWS.config.update({accessKeyId: '***'
+    , secretAccessKey: '****'});
     AWS.config.region = "us-east-1"
 
     var lambda = new AWS.Lambda();
