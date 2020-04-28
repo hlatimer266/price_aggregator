@@ -4,10 +4,12 @@ var model = document.getElementById("model");
 
 var tvs = ['Samsung', 'Visio', 'LG', 'Sony', 'TCL'];
 var laptops = ['Apple', 'HP', 'Dell', 'Lenovo', 'ASUS'];
-var monitors = ['HP', 'Dell', 'Acer', 'Lenovo', 'ASUS'];
+var monitors = ['acer','asus','HP', 'Dell', 'Lenovo'];
 var phones = ['Apple', 'Samsung', 'LG', 'Motorola', 'Google'];
+var categories = ['tv','laptop','monitor','cell_phone']
 
 var tv_models = [['UN65NU6900FXZA', 'UN32M4500BFXZA', 'UN43TU7000FXZA', 'UN55TU8000FXZA', 'UN50TU8000FXZA'],['65UM6900PUA', 'OLED65CXPUA', 'OLED65C9PUA', '65SM9000PUA', '49SM8600PUA'],['V505-G9', 'V555-G1', 'V655-G9', 'M658-G1', 'P659-G1'],['50S425', '43S425', '65R625', '55R625', '75S425'],['XBR55A9G', 'XBR55A8G', 'XBR65X950G', 'XBR77A9G', 'XBR85X950G']]
+var monitor_models = [['V206HQL','V226HQL','V246HQL']]
 
 function brand_options(option){
 	var length = brand.options.length;
@@ -63,6 +65,21 @@ function tv_options(option){
     }
 }
 
+function monitors_options(option){
+	var length = model.options.length;
+	for (i = length-1; i >= 1; i--) {
+ 		model.options[i] = null;
+	}
+    if (option >= 0){
+        for (i = 0; i < monitor_models[option].length; i++){
+            var opt = document.createElement("option");
+            opt.value = i;
+            opt.text = monitor_models[option][i];
+            model.add(opt, null);
+        }
+    }
+}
+
 category.addEventListener("change",function(){
 	var choice = category.options[category.selectedIndex].value;
 	brand_options(choice);
@@ -74,4 +91,23 @@ brand.addEventListener("change",function(){
 	if (category_choice == 1){
 	    tv_options(choice);
 	}
+	if (category_choice == 3) {
+		monitors_options(choice)
+	}
 });
+
+function price_page(){
+	var category_index = category.options[category.selectedIndex].value;
+
+	var brand = document.getElementById('brand');
+	var brand_index = brand.value;
+
+	var model = document.getElementById('model');
+	var model_index = model.value;
+
+	var query_parm = monitors[brand_index] + "/" + monitor_models[brand_index][model_index];
+
+	window.location.href='/'+ categories[category_index-1] +'?parm='+ query_parm + '.json';
+
+	event.preventDefault();
+}

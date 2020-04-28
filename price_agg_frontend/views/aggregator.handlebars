@@ -22,18 +22,17 @@
       </div>
       <div class="col mb-3">
         <select class="custom-select mr-sm-2" id="brand">
-          <option selected>Item Brand</option>
+          <option id="brand" selected>Item Brand</option>
         </select>
       </div>
       <div class="col mb-3">
         <select class="custom-select mr-sm-2" id="model">
-          <option selected>Item Model</option>
+          <option id="model" selected>Item Model</option>
         </select>
       </div>
     </div>
-    <button class="btn btn-primary" type="submit">Search</button>
+    <button class="btn btn-primary" type="submit" onclick="price_page()">Search</button>
   </form>
-  {{results}}
 </div>
 
 <script src="aggregator.js"></script>

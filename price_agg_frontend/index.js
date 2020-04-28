@@ -12,7 +12,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
-    var context = {};
+    
+    res.render('aggregator.handlebars')
+    
+});
+
+app.get('/monitor',function(req, res) {
+    console.log(req.query.parm)
     const accesskey = process.env['AWSAccessKey']
     const secretkey = process.env['AWSSecretKey']
     
@@ -21,32 +27,34 @@ app.get('/', function(req, res) {
     , secretAccessKey: secretkey});
     AWS.config.region = "us-east-1"
 
+    var s3 = new AWS.S3();
     var lambda = new AWS.Lambda();
-    var params = {
-    FunctionName: 'scrape_prices_monitors', /* required */
-    Payload: '{\
-        "url":"https://www.ebay.com/p/568422266", \
-        "html_tag": "display-price", \
-        "vendor" : "ebay" \
-    }',
-    };
+    var options = {
+        Bucket : 'monitors-bb-361',
+        Key : req.query.parm,
+        ResponseContentType : 'application/json'
+    }
 
-    lambda.invoke(params, function(err, data) {
-        if (err) console.log(err, err.stack); // an error occurred
-        else     console.log(data.Payload);           // successful response
-        var obj = JSON.parse(data.Payload)
+     s3.getObject(options, function(err,data){
+        var s3_response = data.Body.toString()
 
-        context.results = obj.body;
-
-        res.render('aggregator.handlebars',context)
+        var params = {
+            FunctionName: 'scrape_prices_monitors', /* required */
+            Payload: s3_response
+            };
+        
+            lambda.invoke(params, function(err, data) {
+                if (err) console.log(err, err.stack); // an error occurred
+                else     console.log(data.Payload);           // successful response
+                var obj = JSON.parse(data.Payload)
+        
+                res.render('monitor.handlebars',JSON.parse(obj.body))
+            });
+        
     });
 
-    // context.results = data;
 
-    // res.render('aggregator.handlebars',context)
-    
-});
-
+})
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
