@@ -7,13 +7,18 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.set('port', 3000);
 
+app.use(express.static(__dirname + '/views'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
+    var context = {};
+    const accesskey = process.env['AWSAccessKey']
+    const secretkey = process.env['AWSSecretKey']
+    
     var AWS = require('aws-sdk');
-    AWS.config.update({accessKeyId: '***'
-    , secretAccessKey: '****'});
+    AWS.config.update({accessKeyId: accesskey
+    , secretAccessKey: secretkey});
     AWS.config.region = "us-east-1"
 
     var lambda = new AWS.Lambda();
@@ -30,8 +35,15 @@ app.get('/', function(req, res) {
         if (err) console.log(err, err.stack); // an error occurred
         else     console.log(data.Payload);           // successful response
         var obj = JSON.parse(data.Payload)
-        res.send(obj.body);
+
+        context.results = obj.body;
+
+        res.render('aggregator.handlebars',context)
     });
+
+    // context.results = data;
+
+    // res.render('aggregator.handlebars',context)
     
 });
 
