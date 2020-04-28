@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/monitor',function(req, res) {
-    console.log(req.query.parm)
+    
     const accesskey = process.env['AWSAccessKey']
     const secretkey = process.env['AWSSecretKey']
     
@@ -45,10 +45,14 @@ app.get('/monitor',function(req, res) {
         
             lambda.invoke(params, function(err, data) {
                 if (err) console.log(err, err.stack); // an error occurred
-                else     console.log(data.Payload);           // successful response
+                
                 var obj = JSON.parse(data.Payload)
+                var context = JSON.parse(obj.body)
+
+                brand_model = req.query.parm.replace(".json","")
+                context['product'] = brand_model.replace('/'," - ");
         
-                res.render('monitor.handlebars',JSON.parse(obj.body))
+                res.render('monitor.handlebars',context)
             });
         
     });
