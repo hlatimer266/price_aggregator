@@ -9,7 +9,7 @@ var phones = ['Apple', 'Samsung', 'LG', 'Motorola', 'Google'];
 var categories = ['tv','laptop','monitor','cell_phone']
 
 var tv_models = [['UN65NU6900FXZA', 'UN32M4500BFXZA', 'UN43TU7000FXZA', 'UN55TU8000FXZA', 'UN50TU8000FXZA'],['65UM6900PUA', 'OLED65CXPUA', 'OLED65C9PUA', '65SM9000PUA', '49SM8600PUA'],['V505-G9', 'V555-G1', 'V655-G9', 'M658-G1', 'P659-G1'],['50S425', '43S425', '65R625', '55R625', '75S425'],['XBR55A9G', 'XBR55A8G', 'XBR65X950G', 'XBR77A9G', 'XBR85X950G']]
-var monitor_models = [['V206HQL','V226HQL','V246HQL']]
+var monitor_models = [['V206HQL','V226HQL','V246HQL','B206HQL','B226WL'],['PB238Q','VE278Q','VG275Q','VP228HE','VW22AT']]
 
 function brand_options(option){
 	var length = brand.options.length;

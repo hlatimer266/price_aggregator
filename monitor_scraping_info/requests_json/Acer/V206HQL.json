@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.officedepot.com/a/products/375238/Acer-V206HQL-195-LED-Monitor/?cm_mmc=PLA-_-Google-_-Monitors-_-375238&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHhO1cFldQuxELmmmDsBp3QKLHfTFUZ3GaOw5WfXeInB3GepUSy7nKRoCT1kQAvD_BwE&gclsrc=aw.ds", 
+        "html_tag": "unified_price_row unified_sale_price red_price", 
+        "vendor" : "office_depot" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/TCO-Black-II-MPR-Monitor-W-Million-19-5-ms-V206HQL-LED-LCD-16-20-Adjustable-HD-Acer-VGA-1600-200-16-9-Colors-Angle-5-DVI-x-Nit-900-16-7-Display/954645118?wmlspartner=wlpa&selectedSellerId=1198&adid=22222222227089383363&wl0=&wl1=g&wl2=c&wl3=202825840059&wl4=aud-430887228898:pla-328333851253&wl5=9032917&wl6=&wl7=&wl8=&wl9=pla&wl10=112561793&wl11=online&wl12=954645118&veh=sem&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHgNz1O8YkvfJYMdF0KwNTdLwSiCuzGJJgR2j-6UIXwQT1QqjE7Bq5hoCxeoQAvD_BwE",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.monoprice.com/product?p_id=18020&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHl-LysFrdKwjBOBAa0AC5Pgj40jtDf6aD-WAM8WZInEnJI86FRe29RoCpBcQAvD_BwE",
+        "html_tag": "sale-price",
+        "vendor": "monoprice"
+      },
+      {
+        "url": "https://www.ebay.com/p/691182356?iid=274006906214&chn=ps&norover=1&mkevt=1&mkrid=711-117182-37290-0&mkcid=2&itemid=274006906214&targetid=884108885999&device=c&mktype=pla&googleloc=9032917&poi=&campaignid=9423618396&mkgroupid=95235844226&rlsatarget=pla-884108885999&abcId=1141016&merchantid=6296724&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHoJMPFE8zHTwgaPC1SYMtwVfrphPD0qF9ZqZ-zRhd26tw36KZY1PqRoC7vUQAvD_BwE",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}
