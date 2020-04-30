@@ -1,0 +1,27 @@
+.navbar{
+	background-color: rgb(43, 50, 61);
+}
+
+body{
+	background-color: rgb(171, 178, 188) !important;
+}
+
+.row img{
+    width: 100%;
+}
+
+p img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.navbar-brand img{
+	width: 60px;
+	height: 60px;
+}
+
+nav a{
+	color: #6c757d;
+}
