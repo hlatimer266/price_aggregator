@@ -18,6 +18,8 @@ app.get('/', function(req, res) {
 });
 
 app.get('/monitor',function(req, res) {
+
+    console.log(req.query.parm);
     
     const accesskey = process.env['AWSAccessKey']
     const secretkey = process.env['AWSSecretKey']

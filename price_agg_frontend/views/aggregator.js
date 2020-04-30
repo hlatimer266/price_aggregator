@@ -4,12 +4,12 @@ var model = document.getElementById("model");
 
 var tvs = ['Samsung', 'Visio', 'LG', 'Sony', 'TCL'];
 var laptops = ['Apple', 'HP', 'Dell', 'Lenovo', 'ASUS'];
-var monitors = ['acer','asus','HP', 'Dell', 'Lenovo'];
+var monitors = ['acer','asus','dell', 'hp', 'lenovo'];
 var phones = ['Apple', 'Samsung', 'LG', 'Motorola', 'Google'];
 var categories = ['tv','laptop','monitor','cell_phone']
 
 var tv_models = [['UN65NU6900FXZA', 'UN32M4500BFXZA', 'UN43TU7000FXZA', 'UN55TU8000FXZA', 'UN50TU8000FXZA'],['65UM6900PUA', 'OLED65CXPUA', 'OLED65C9PUA', '65SM9000PUA', '49SM8600PUA'],['V505-G9', 'V555-G1', 'V655-G9', 'M658-G1', 'P659-G1'],['50S425', '43S425', '65R625', '55R625', '75S425'],['XBR55A9G', 'XBR55A8G', 'XBR65X950G', 'XBR77A9G', 'XBR85X950G']]
-var monitor_models = [['V206HQL','V226HQL','V246HQL','B206HQL','B226WL'],['PB238Q','VE278Q','VG275Q','VP228HE','VW22AT']]
+var monitor_models = [['V206HQL','V226HQL','V246HQL','B206HQL','B226WL'],['PB238Q','VE278Q','VG275Q','VP228HE','VW22AT'],['P2319H','P2419H','U2412M','U2419H','U2717D'],['K5A38AA','N223','P204','P274','Z27'],['E2054','P24q','T23d','s22e-19','t2224d']]
 
 function brand_options(option){
 	var length = brand.options.length;
@@ -106,6 +106,8 @@ function price_page(){
 	var model_index = model.value;
 
 	var query_parm = monitors[brand_index] + "/" + monitor_models[brand_index][model_index];
+
+	console.log('/'+ categories[category_index-1] +'?parm='+ query_parm + '.json')
 
 	window.location.href='/'+ categories[category_index-1] +'?parm='+ query_parm + '.json';
 
