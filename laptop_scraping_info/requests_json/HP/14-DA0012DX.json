@@ -1,0 +1,20 @@
+{
+    "request" : [{
+        "url":"https://www.bestbuy.com/site/hp-2-in-1-14-touch-screen-chromebook-intel-core-i3-8gb-memory-64gb-emmc-flash-memory-white/6365772.p?skuId=6365772",
+        "vendor" : "bestbuy"
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-2-in-1-14-Full-HD-Touchscreen-Chromebook-x360-Core-i3-8130U-8GB-RAM-64GB-eMMC/814497767",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/hp-chromebook-x360/p/2S3-0002-001U7?Description=14-DA0012DX&cm_re=14-DA0012DX-_-2S3-0002-001U7-_-Product",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.amazon.com/HP-Chromebook-14-db0023dx-A4-9120C-R4-32GB/dp/B07NCN1S21/ref=sr_1_6?dchild=1&m=A18RSW2ZEV166G&marketplaceID=ATVPDKIKX0DER&qid=1587467333&refinements=p_4%3AHP&s=merchant-items&sr=1-6",
+        "vendor": "amazon"
+      }
+
+    ]
+}

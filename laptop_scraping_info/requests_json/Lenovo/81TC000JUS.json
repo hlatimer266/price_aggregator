@@ -1,0 +1,20 @@
+{
+    "request" : [{
+        "url":"https://www.bestbuy.com/site/lenovo-yoga-c740-2-in-1-14-touch-screen-laptop-intel-core-i5-8gb-memory-256gb-solid-state-drive-mica/6367805.p?skuId=6367805",
+        "vendor" : "bestbuy"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Lenovo-Yoga-C740-2-in-1-14-Touch-Screen-Laptop-Intel-Core-i5-8GB-Memory-256GB-Solid-State-Drive-Mica-81TC000JUS-Tablet-Notebook/526394392",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000E-0FNN8?Description=81TC000JUS&cm_re=81TC000JUS-_-9SIA8X5APT2293-_-Product",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.amazon.com/Lenovo-Yoga-C740-14-FHD-Touch/dp/B08122HHX9/ref=sr_1_4?dchild=1&m=AD7Y6TQ6313D1&marketplaceID=ATVPDKIKX0DER&qid=1586923041&refinements=p_4%3ALenovo&s=merchant-items&sr=1-4",
+        "vendor": "amazon"
+      }
+
+    ]
+}
