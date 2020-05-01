@@ -1,0 +1,20 @@
+{
+    "request" : [{
+        "url":"https://www.bestbuy.com/site/apple-macbook-pro-13-display-with-touch-bar-intel-core-i5-8gb-memory-256gb-ssd-latest-model-space-gray/5998701.p?skuId=5998701",
+        "vendor" : "bestbuy"
+    },
+    {
+        "url": "https://www.walmart.com/ip/13-inch-MacBook-Pro-with-Touch-Bar-1-4GHz-quad-core-8th-generation-Intel-Core-i5-processor-256GB-Space-Gray/476920204",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1XV-000E-00337?Item=9SIAFVD9R67835&Tpk=MUHP2LL%2fA",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B0863D4XJW/ref=sr_1_30?dchild=1&m=AN8LN2YPKS7DF&marketplaceID=ATVPDKIKX0DER&qid=1586923177&refinements=p_4%3AApple&s=merchant-items&sr=1-30",
+        "vendor": "amazon"
+      }
+
+    ]
+}

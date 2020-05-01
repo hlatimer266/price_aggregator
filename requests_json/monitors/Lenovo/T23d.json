@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.cdw.com/product/lenovo-thinkvision-t23d-led-monitor-22.5/5229610?pfm=srh", 
+        "html_tag": "price-type-selected", 
+        "vendor" : "cdw" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Lenovo-ThinkVision-T23d-22-5-1920x1200-6-ms-WLED-LCD-Monitor/449012204",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1464823-REG/lenovo_61abmar1us_23_thinkvision_t23i_10_wide.html?sts=pi&pim=Y",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+      },
+      {
+        "url": "https://www.ebay.com/p/13024435610",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}
