@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1485490-REG/dell_24_u2419hx_ultrasharp_wqhd.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Dell-UltraSharp-U2419H-24/421133198",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/dell-ultrasharp-u2419h-led-monitor-full-hd-1080p-24/5298925?pfm=srh",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/5025784139",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}
