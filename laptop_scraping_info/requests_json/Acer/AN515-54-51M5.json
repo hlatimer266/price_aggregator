@@ -1,0 +1,20 @@
+{
+    "request" : [{
+        "url":"https://www.bestbuy.com/site/acer-nitro-5-15-6-gaming-laptop-intel-core-i5-8gb-memory-nvidia-geforce-gtx-1650-1tb-hard-drive-128gb-ssd-black/6344387.p?skuId=6344387",
+        "vendor" : "bestbuy"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-NVIDIA-Memory-GTX-Black-Intel-Solid-GeForce-8GB-AN515-54-51M5-1650-128GB-Computer-Drive-Core-1TB-Obs-Notebook-Hard-i5-Acer-PC-State-Gaming/198385755",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/obsidian-black-acer-nitro-7-an715-51-73bu-gaming-entertainment/p/N82E16834316724?Description=acer%20nitro&cm_re=acer_nitro-_-34-316-724-_-Product&quicklink=true",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.amazon.com/Acer-Nitro-i5-9300H-Windows-Renewed/dp/B07VZXHF3D/ref=sr_1_2?dchild=1&keywords=AN515-54-51M5&qid=1586845258&sr=8-2",
+        "vendor": "amazon"
+      }
+
+    ]
+}
