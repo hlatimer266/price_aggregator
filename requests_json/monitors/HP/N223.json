@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1418778-REG/hp_3ml60a6_aba_n223_21_5_fhd_lcd.html?sts=pi&pim=Y", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-22-1920x1080-DVI-HDMI-VGA-USB-60hz-5ms-HD-LED-LCD-Monitor-N223/762585034",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/hp-n223-led-monitor-full-hd-1080p-21.5/5022228",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/12020938322?iid=274162473698",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}

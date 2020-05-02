@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.cdw.com/product/lenovo-thinkvision-s22e-19-21.5-fhd-led-backlit-lcd-monitor-black/5442887", 
+        "html_tag": "price-type-selected", 
+        "vendor" : "cdw" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Lenovo-ThinkVision-S22e-19-21-5-inch-LED-Backlit-LCD-Monitor/368006422",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1464833-REG/lenovo_61c9kcr1us_21_5_thinkvision_s22e_19_led.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+      },
+      {
+        "url": "https://www.ebay.com/c/6027687973",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}
