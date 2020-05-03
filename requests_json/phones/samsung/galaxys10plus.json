@@ -1,0 +1,37 @@
+{
+    "request" : [
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/samsung-galaxy-s10-plus-unlocked-gsm-phone-7521-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1456416-REG/samsung_sm_g975uzkaxaa_galaxy_s10_sm_g975u_128gb.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://www.walmart.com/ip/SAMSUNG-Unlocked-Galaxy-S10-Plus-128GB-Black-Smartphone/480000580", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.bestbuy.com/site/samsung-galaxy-s10-with-128gb-memory-cell-phone-unlocked-prism-black/6323863.p?skuId=6323863", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.ebay.com/itm/NEW-Samsung-Galaxy-S10-Plus-128-512GB-1TB-SM-G975U1-Unlocked-All-Colors/163793825474", 
+        "html_tag": "prcIsum", 
+        "vendor" : "ebay"
+
+    },
+    {
+        "url": "https://www.newegg.com/p/23B-0002-00BD0?Description=Samsung%20Galaxy%20S10plus&cm_re=Samsung_Galaxy_S10plus-_-9SIAJ3AA3S7785-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}
+
