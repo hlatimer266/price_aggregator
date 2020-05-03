@@ -1,0 +1,20 @@
+{
+    "request" : [{
+        "url":"https://www.bestbuy.com/site/acer-nitro-5-15-6-gaming-laptop-intel-core-i5-8gb-memory-nvidia-geforce-gtx-1050-256gb-solid-state-drive-black/6344383.p?skuId=6344383",
+        "vendor" : "bestbuy"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Acer-Nitro-5-15-6-Gaming-Laptop-Intel-Core-i5-8GB-Memory-NVIDIA-GeForce-GTX-1050-256GB-Solid-State-Drive-Black/720273480",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000X-01DF5?Description=AN515-54-54W2&cm_re=AN515-54-54W2-_-1TS-000X-01DF5-_-Product",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.amazon.com/Acer-Nitro-AN515-54-54W2-15-6-FHD-i5-9300H/dp/B07RQ32596/ref=sr_1_1?dchild=1&keywords=AN515-54-54W2&qid=1586844972&sr=8-1",
+        "vendor": "amazon"
+      }
+
+    ]
+}
