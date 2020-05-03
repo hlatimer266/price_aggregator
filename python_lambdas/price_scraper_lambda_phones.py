@@ -42,6 +42,7 @@ def lambda_handler(event,context):
             formatted_price = price['content']
         elif reqs['vendor'] == "bestbuy": 
             '''
+            #unsure how to incorporate this regex, blocker
             r = requests.get(url, headers = headers)
             p = re.compile(r'regularPrice\\":([\d.]+),')
             price = p.findall(r.text)[0]
