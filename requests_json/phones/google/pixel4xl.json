@@ -1,0 +1,36 @@
+{
+    "request" : [
+    {
+        "url": "https://www.ebay.com/itm/Google-Pixel-4XL-64-or-128-GB-Verizon-Black-White-Orange/392691261623?hash=item5b6e3920b7:m:mQI141ySrihNbizoo9bRYKA", 
+        "html_tag": "prcIsum", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1507481-REG/google_ga01180_us_pixel_4_xl_64gb.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://welectronics.com/shopping/gsm-phones/google-pixel-4-xl-unlocked-gsm-phone-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Google-Pixel-4-XL-Black-64-GB-Unlocked/419637576", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.bestbuy.com/site/google-pixel-4-xl-with-64gb-cell-phone-unlocked-just-black/6382531.p?skuId=6382531", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.newegg.com/p/23B-001E-001E0?Description=google%20pixel&cm_re=google_pixel-_-9SIAJNJB7U6146-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}
+
