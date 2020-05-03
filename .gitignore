@@ -2,9 +2,5 @@
 __pycache__
 venv
 node_modules
-<<<<<<< HEAD
-*.zip
 .DS_Store
-=======
-*.zip
->>>>>>> 163b05270d4a9640d15b32fab026c73c5c7a2649
+
