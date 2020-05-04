@@ -2,7 +2,7 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/Apple-iPhone-11-128GB-Black-Verizon-T-Mobile-AT-T-Fully-Unlocked-Smartphone/233538968728?epid=13034214281&hash=item366001dc98:g:iQwAAOSw~yJee9NX", 
-        "html_tag": "prcIsum", 
+        "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {

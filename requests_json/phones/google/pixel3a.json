@@ -2,7 +2,7 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/Google-Pixel-3a-Smartphone-64GB-Unlocked-Just-Black-Brand-New/114017156941?epid=5031779894", 
-        "html_tag": "prcIsum", 
+        "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {

@@ -2,7 +2,7 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/Google-Pixel-4XL-64-or-128-GB-Verizon-Black-White-Orange/392691261623?hash=item5b6e3920b7:m:mQI141ySrihNbizoo9bRYKA", 
-        "html_tag": "prcIsum", 
+        "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {
