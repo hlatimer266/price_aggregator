@@ -81,16 +81,17 @@ function monitors_options(option){
         }
     }
 }
+
 function phones_options(option){
 	var length = model.options.length;
 	for (i = length-1; i >= 1; i--) {
  		model.options[i] = null;
 	}
     if (option >= 0){
-        for (i = 0; i < monitor_models[option].length; i++){
+        for (i = 0; i < phone_models[option].length; i++){
             var opt = document.createElement("option");
             opt.value = i;
-            opt.text = monitor_models[option][i];
+            opt.text = phone_models[option][i];
             model.add(opt, null);
         }
     }
@@ -110,6 +111,9 @@ brand.addEventListener("change",function(){
 	if (category_choice == 3) {
 		monitors_options(choice)
 	}
+	if (category_choice == 4) {
+		phones_options(choice)
+	}
 });
 
 function price_page(){
@@ -121,7 +125,12 @@ function price_page(){
 	var model = document.getElementById('model');
 	var model_index = model.value;
 
-	var query_parm = monitors[brand_index] + "/" + monitor_models[brand_index][model_index];
+	if (categories[category_index-1] == "monitor"){
+		var query_parm = monitors[brand_index] + "/" + monitor_models[brand_index][model_index];
+	}
+	else if (categories[category_index-1] == "cell_phone") {
+		var query_parm = phones[brand_index] + "/" + phone_models[brand_index][model_index];
+	}
 
 	console.log('/'+ categories[category_index-1] +'?parm='+ query_parm + '.json')
 

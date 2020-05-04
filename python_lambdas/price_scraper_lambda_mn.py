@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import time
 import json
 
 
@@ -37,10 +38,10 @@ def lambda_handler(event, context):
             price = soup.find(class_=reqs['html_tag'])
             formatted_price = price['content']
             
-        results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price)})
+        results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price)})
         
  
     return {
         'statusCode': 200,
-        'body': str(results_obj)
+        'body': json.dumps(results_obj)
     }
