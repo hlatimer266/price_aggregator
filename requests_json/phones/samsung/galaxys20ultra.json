@@ -16,21 +16,21 @@
         "vendor" : "walmart" 
     },
     {
-        "url": "https://www.bestbuy.com/site/samsung-galaxy-s20-ultra-5g-enabled-128gb-unlocked-cosmic-black/6395758.p?skuId=6395758", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
         "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-Ultra-SM-G988B-DS-128GB-12GB-RAM-FACTORY-UNLOCKED-6-9-108MP/202906112669?epid=16036969474", 
         "html_tag": "prcIsum", 
         "vendor" : "ebay"
 
     },
     {
-        "url": "https://www.newegg.com/samsung-galaxy-s20-ultra-5g-6-9-cosmic-black/p/N82E16875169858?Description=galaxy%20ultra&cm_re=galaxy_ultra-_-75-169-858-_-Product", 
-        "html_tag": "application/ld+json", 
-        "vendor" :  "newegg" 
-    }
+        "url": "https://www.hsn.com/products/samsung-galaxy-s20-ultra-g988b-128gb-gsm-unlocked-andro/9485512", 
+        "html_tag": "product-price", 
+        "vendor" :  "hsn"
+    }, 
+    {
+        "url": "
+        "html_tag": "
+        "vendor" : "
+    },
 
     ]
 }

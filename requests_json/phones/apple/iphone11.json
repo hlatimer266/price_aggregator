@@ -2,7 +2,7 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/Apple-iPhone-11-128GB-Black-Verizon-T-Mobile-AT-T-Fully-Unlocked-Smartphone/233538968728?epid=13034214281&hash=item366001dc98:g:iQwAAOSw~yJee9NX", 
-        "html_tag": "prcIsum", 
+        "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {
@@ -11,19 +11,19 @@
         "vendor" : "shopdevicesnow"
     }, 
     {
-        "url": "https://www.bestbuy.com/site/apple-iphone-11-with-128gb-memory-cell-phone-unlocked-black/6223315.p?skuId=6223315", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor": "bestbuy"
-    }, 
-    {
         "url": "https://www.walmart.com/ip/Refurbished-Apple-iPhone-11-128GB-Black-LTE-Cellular-AT-T-MWJ02LL-A/734504118", 
         "html_tag": "price-characteristic", 
         "vendor": "walmart"
     }, 
     {
-        "url": "https://www.newegg.com/apple-iphone-11-6-1-4g-lte/p/23B-000A-00AW5?Description=iphone11&cm_re=iphone11-_-23B-000A-00AW5-_-Product", 
-        "html_tag": "application/ld+json", 
-        "vendor": "newegg"
+        "url": "https://www.hsn.com/products/apple-iphone-11-128gb-unlocked-gsmcdma-smartphone/9360270", 
+        "html_tag": "product-price", 
+        "vendor": "hsn"
+    }, 
+    {
+        "url": "https://www.allelectronicsandmore.com/products/apple-iphone-11-with-64gb-memory-cell-phone-unlocked?variant=31358452629588", 
+        "html_tag": "price-item price-item--regular", 
+        "vendor": "all"
     }
 
     ]

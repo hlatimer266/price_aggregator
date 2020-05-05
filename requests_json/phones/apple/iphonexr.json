@@ -2,7 +2,7 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/Apple-iPhone-XR-64GB-Factory-Unlocked-Smartphone-4G-LTE-iOS-Smartphone/254187678666?epid=13023706562&hash=item3b2ec42bca:m:mxcsaipOrUeYbznT5gw1ibA#viTabs_0", 
-        "html_tag": "prcIsum", 
+        "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {
@@ -16,14 +16,14 @@
         "vendor" : "walmart" 
     },
     {
-        "url": "https://www.bestbuy.com/site/apple-iphone-xr-with-64gb-memory-cell-phone-unlocked-black/1724437.p?skuId=1724437", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
+        "url": "https://www.hsn.com/products/apple-iphone-xr-64gb-unlocked-gsmcdma-smartphone/9360210", 
+        "html_tag": "product-price", 
+        "vendor" : "hsn" 
     },
     {
-        "url": "https://www.newegg.com/apple-iphone-xr-6-1-4g-lte-black/p/0V4-0011-00P67?Item=0V4-0011-00P67", 
-        "html_tag": "application/ld+json", 
-        "vendor" :  "newegg" 
+        "url": "https://www.macofalltrades.com/shop/apple-iphone-xr-at-t-64gb-black-mt3k2ll-a-very-good-condition-iphonexr-att-64-b-b/", 
+        "html_tag": "price price--withoutTax", 
+        "vendor" :  "macofalltrades"
     }
 
     ]

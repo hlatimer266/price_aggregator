@@ -21,15 +21,15 @@
         "vendor" : "bestbuy" 
     },
     {
-        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-128GB-8GB-SM-G980F-DS-Dual-Sim-FACTORY-UNLOCKED-6-2-64-MP/372949785456?_trkparms=ispr%3D1", 
-        "html_tag": "prcIsum", 
-        "vendor" : "ebay"
+        "url": "https://www.hsn.com/products/samsung-galaxy-s20-g980f-128gb-gsm-unlocked-android-sma/9485504", 
+        "html_tag": "product-price, 
+        "vendor" : "hsn"
 
     },
     {
-        "url": "https://www.newegg.com/samsung-galaxy-s20-5g-6-2-cosmic-gray/p/N82E16875169850?Description=s20%205g&cm_re=s20_5g-_-75-169-850-_-Product", 
-        "html_tag": "application/ld+json", 
-        "vendor" :  "newegg" 
+        "url": "
+        "html_tag": "
+        "vendor" :  "
     }
 
     ]
