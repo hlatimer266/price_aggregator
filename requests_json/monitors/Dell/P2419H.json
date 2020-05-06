@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1430184-REG/dell_24_p2419h_full_hd.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Dell-24-P2419H-Ultrathin-IPS-LCD-Computer-Monitor-Deluxe-Bundle/878483161",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/dellp2419h-ledmonitor-fullhd1080p-24/5850945",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/17030521662",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}

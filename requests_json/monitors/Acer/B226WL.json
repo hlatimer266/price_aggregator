@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.officedepot.com/a/products/179614/Acer-B226WL-22-LED-LCD-Monitor/", 
+        "html_tag": "unified_price_row unified_sale_price red_price", 
+        "vendor" : "office_depot" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/1680-Black-250-Monitor-W-100-000-000-1-Million-16-10-22-WSXGA-ms-LED-Speakers-LCD-Adjustable-1050-Acer-B226WL-VGA-24-20-Colors-Angle-5-DVI-x-Nit-16-7/104495078",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.monoprice.com/product?p_id=17996",
+        "html_tag": "sale-price",
+        "vendor": "monoprice"
+      },
+      {
+        "url": "https://www.ebay.com/p/168538047",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ]
+}
