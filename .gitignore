@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .idea
 =======
+=======
+>>>>>>> master
 .vscode
 __pycache__
 venv
@@ -11,4 +14,7 @@ node_modules
 =======
 *.zip
 >>>>>>> 163b05270d4a9640d15b32fab026c73c5c7a2649
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
