@@ -131,7 +131,7 @@ app.get('/laptop',function(req, res) {
         var s3_response = data.Body.toString()
 
         var params = {
-            FunctionName: 'scrape_prices_laptops', /* required */
+            FunctionName: 'laptop_scrape', /* required */
             Payload: s3_response
             };
 
