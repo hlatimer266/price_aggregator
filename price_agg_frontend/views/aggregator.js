@@ -97,6 +97,23 @@ function phones_options(option){
     }
 }
 
+function laptop_options(option){
+	var length = model.options.length;
+	for (i = length-1; i >= 1; i--) {
+ 		model.options[i] = null;
+	}
+    if (option >= 0){
+        for (i = 0; i < laptop_models[option].length; i++){
+            var opt = document.createElement("option");
+            opt.value = i;
+            opt.text = laptop_models[option][i];
+            model.add(opt, null);
+        }
+    }
+}
+
+
+
 category.addEventListener("change",function(){
 	var choice = category.options[category.selectedIndex].value;
 	brand_options(choice);
@@ -107,6 +124,9 @@ brand.addEventListener("change",function(){
 	var choice = brand.options[brand.selectedIndex].value;
 	if (category_choice == 1){
 	    tv_options(choice);
+	}
+	if (category_choice == 2){
+		laptop_options(choice);
 	}
 	if (category_choice == 3) {
 		monitors_options(choice)
@@ -130,6 +150,9 @@ function price_page(){
 	}
 	else if (categories[category_index-1] == "cell_phone") {
 		var query_parm = phones[brand_index] + "/" + phone_models[brand_index][model_index];
+	}
+	else if (categories[category_index-1] == "laptop") {
+		var query_parm = laptops[brand_index] + "/" + laptops[brand_index][model_index];
 	}
 
 	console.log('/'+ categories[category_index-1] +'?parm='+ query_parm + '.json')
