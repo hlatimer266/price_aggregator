@@ -1,0 +1,35 @@
+{
+    "request" : [
+    {
+        "url": "https://www.ebay.com/itm/Unlocked-Google-Pixel-3A-XL-64GB-CDMA-GSM-Black-White-Purple-Smartphone/202757052183?_trkparms=aid%3D1110001%26algo%3DSPLICE.SIM%26ao%3D1%26asc%3D20160323102634%26meid%3D6e98a5bdfeb7423abb998995f916a42c%26pid%3D100623%26rk%3D1%26rkt%3D5%26mehot%3Dpp%26sd%3D202721618157%26itm%3D202757052183%26pmt%3D0%26noa%3D1%26pg%3D2047675&_trksid=p2047675.c100623.m-1https://www.ebay.com/itm/Unlocked-Google-Pixel-3A-XL-64GB-CDMA-GSM-Black-White-Purple-Smartphone/202757052183?_trkparms=aid%3D1110001%26algo%3DSPLICE.SIM%26ao%3D1%26asc%3D20160323102634%26meid%3D6e98a5bdfeb7423abb998995f916a42c%26pid%3D100623%26rk%3D1%26rkt%3D5%26mehot%3Dpp%26sd%3D202721618157%26itm%3D202757052183%26pmt%3D0%26noa%3D1%26pg%3D2047675&_trksid=p2047675.c100623.m-1", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1475550-REG/google_ga00664_us_pixel_3a_xl_smartphone.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://welectronics.com/shopping/gsm-phones/google-pixel-3a-xl-unlocked-dual-sim-phone-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Google-Pixel-XL-3a-Black-Factory-Unlocked/767183825?selected=true", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.bestbuy.com/site/google-pixel-3a-xl-64gb-unlocked-just-black/6347790.p?skuId=6347790", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.newegg.com/black-google-pixel-3a-6-4g-lte/p/23B-001E-00124?Description=google%20pixel%203a%20Xl&cm_re=google_pixel_3a_Xl-_-9SIAFVD9R64004-_-Product&quicklink=true", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}

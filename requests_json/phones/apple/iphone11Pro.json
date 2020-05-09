@@ -1,0 +1,31 @@
+{
+    "request" : [
+    {
+        "url": "https://www.ebay.com/itm/Apple-iPhone-11-Pro-Smartphone-AT-T-Sprint-T-Mobile-Verizon-or-Unlocked-LTE/293463314986?epid=18034218115&_trkparms=ispr%3D1&hash=item4453c6d22a:m:mVew2CUru7-AZhEMOfF2VWg&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKMy1HQ5tqr4SizEZhU4A6p3HiRfJe50YX3%2FDnTFWaELS28SG87IDw%2FbOtOBroy6A7s9nkLmsFbBGV%2FkxxRkrin5ryYRLEdtLpawpURmEWmDPFtlGO1F1IoiSjkqognkryQV4DniAItDIzfxZo%2BRjOx29oBOqy6lOGxqYYg7zzov5ogqqD%2FtER1UjCNdPQOE7SH3ZramxpWVjMi064XYIU6D9eJE1haYc05DyucEwDmTGNJC0ZzIKVEo4NCTIW5NCr1v%2Bz7VLkXaA01Ntmr7if3k5LETh2D%2BQe2g3ULExsuTexxSqmy9gN1aSm3bxYZVolrfoCa2fCdJ0UeXMEAp%2FUfliBkCTMfCUFV%2FCnMfN8aq%2BymPLYCZAaTnGoMQ08Nif0Y7p7o12zM7z%2Bt4xgMMG%2FSyfn4Ozey9knQ8Jb2FbHGRCSyaNGE3S1SxUIy4N2rf815Vb3391GAX%2B5MLKMV46YDUE%2BcLSpYbxlTcAhKkj150%2B6IoqvlsuTxSVS24BFWMG87ZbiArF2JcN4XtiQ42yWFxqJ5qetgKokGQyjsNTZqhqyP8K4ZMZPTAGAyoPVyfrX4D5k5JIGykTbn3iO9Ltj2o6D%2BSER%2BKWLtzoeB9W1kxeXmb5LkTrIM1dgTLmjjH5aTsaITD0UqiKf%2BBSXVgRsELjRSsAqAQfuuiFMR59bLY0lPXB754K2LWaKi9%2Fzl7ToQkLyG7HTMoecV47hpSDsV3AneNnWab6gFH6nZMyYtFKbHUCdTsTpi%2BiEDqI%2BX57RCm1EvisVnSzOIgQACvPUbg%3D%3D&checksum=293463314986aa9f8ff7cdea4255a097f28137f49d5d", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.shopdevicesnow.com/products/apple-iphone-11-128gb-black-verizon-t-mobile?_pos=2&_sid=708e622c1&_ss=r",   
+        "html_tag": "current_price", 
+        "vendor" : "shopdevicesnow"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Straight-Talk-Apple-iPhone-11-Pro-Prepaid-with-64G-Space-Gray/778935868", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.bestbuy.com/site/apple-iphone-11-pro-with-64gb-memory-cell-phone-unlocked-space-gray/6223200.p?skuId=6223200", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.newegg.com/apple-iphone-11-pro-5-8-4g-lte/p/23B-000A-00AW6", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}
+
