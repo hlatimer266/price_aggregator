@@ -1,0 +1,31 @@
+{
+    "request" : [
+    {
+        "url": "https://www.bestbuy.com/site/lg-k30-2019-lm-x320qmg-with-16gb-memory-cell-phone-unlocked-black/6363047.p?skuId=6363047", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.newegg.com/black-lg-k30-5-3-4g-lte/p/N82E16875136496?Description=phones&cm_re=phones-_-9SIA25VA0U3274-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }, 
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1501306-REG/lg_lmx320qmg_ausabky_k30_16gb_smartphone_unlocked.html?sts=pi&pim=Y", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    },
+    {
+        "url": "https://www.ebay.com/itm/LG-K30-2019-LM-X320QMG-16GB-4G-LTE-Factory-Unlocked-CDMA-GSM-5-4-HD-Android8/223746024286?epid=10034673698&", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/LG-K30-LM-X410AS-16GB-AT-T-GSM-Unlocked-Smartphone-Black/504200346", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    }
+
+    ]
+}
+

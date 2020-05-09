@@ -1,0 +1,36 @@
+{
+    "request" : [
+    {
+        "url": "https://www.bestbuy.com/site/lg-g8-thinq-with-128gb-memory-cell-phone-unlocked-aurora-black/6337607.p?skuId=6337607", 
+        "html_tag": "priceView-hero-price priceView-customer-price", 
+        "vendor" : "bestbuy" 
+    },
+    {
+        "url": "https://www.newegg.com/lg-g8x-thinq-6-4-gsm-hspa-lte-aurora-black/p/23B-000F-001J6?Description=phones&cm_re=phones-_-9SIABPXB5J9800-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }, 
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1512988-REG/lg_lmg850qm7x_ausabk_g8x_thinq_128gb_smartphone.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"
+    }, 
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/lg-g8x-thinq-unlocked-dual-sim-phone-128gb-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor": "overseas"
+    }, 
+    {
+        "url": "https://www.ebay.com/itm/LG-G8X-ThinQ-LMG850UM-Latest-128GB-Black-AT-T-GSM-Unlocked-T-Mobile-Smartphone/131840731869", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/LG-G8-ThinQ-128GB-Unlocked-Smartphone-Black/724389745", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    }
+
+    ]
+}
+
