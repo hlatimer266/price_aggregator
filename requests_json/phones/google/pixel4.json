@@ -2,7 +2,11 @@
     "request" : [
     {
         "url": "https://www.ebay.com/itm/NEW-SEALED-Google-Pixel-4-64GB-Factory-Unlocked-Just-Black/293551293959?epid=18006492702&hash=item4459054607:g:m6MAAOSwO5BeYU23", 
+<<<<<<< HEAD
         "html_tag": "prcIsum", 
+=======
+        "html_tag": "notranslate", 
+>>>>>>> master
         "vendor" : "ebay"
     },
     {

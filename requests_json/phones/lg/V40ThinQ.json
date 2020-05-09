@@ -17,7 +17,11 @@
     },
     {
         "url": "https://www.ebay.com/itm/LG-V40-ThinQ-64GB-Black-Unlocked-Smartphone-LM-V405QA7USABK-QHD-OLED-Screen/362882303051?epid=8024885378", 
+<<<<<<< HEAD
         "html_tag": "prcIsum", 
+=======
+        "html_tag": "notranslate", 
+>>>>>>> master
         "vendor" : "ebay"
     },
     {

@@ -7,7 +7,11 @@
     },
     {
         "url": "https://www.ebay.com/itm/LG-Stylo-5-LM-Q720QM-32GB-Factory-Unlocked-CDMA-GSM-6-2-TFT-Aurora-Black/323982534657?epid=21034673794&hash=item4b6edd2801:g:r-kAAOSwOYZdrrd9", 
+<<<<<<< HEAD
         "html_tag": "prcIsum", 
+=======
+        "html_tag": "notranslate", 
+>>>>>>> master
         "vendor" : "ebay"
     },
     {

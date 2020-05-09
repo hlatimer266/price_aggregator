@@ -111,6 +111,21 @@ function phones_options(option){
     }
 }
 
+function phones_options(option){
+	var length = model.options.length;
+	for (i = length-1; i >= 1; i--) {
+ 		model.options[i] = null;
+	}
+    if (option >= 0){
+        for (i = 0; i < phone_models[option].length; i++){
+            var opt = document.createElement("option");
+            opt.value = i;
+            opt.text = phone_models[option][i];
+            model.add(opt, null);
+        }
+    }
+}
+
 category.addEventListener("change",function(){
 	var choice = category.options[category.selectedIndex].value;
 	brand_options(choice);

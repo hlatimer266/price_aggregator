@@ -17,7 +17,11 @@
     },
     {
         "url": "https://www.ebay.com/itm/LG-K30-2019-LM-X320QMG-16GB-4G-LTE-Factory-Unlocked-CDMA-GSM-5-4-HD-Android8/223746024286?epid=10034673698&", 
+<<<<<<< HEAD
         "html_tag": "prcIsum", 
+=======
+        "html_tag": "notranslate", 
+>>>>>>> master
         "vendor" : "ebay"
     },
     {
