@@ -16,38 +16,21 @@
         "vendor" : "walmart" 
     },
     {
-<<<<<<< HEAD
-        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-Plus-SM-G985F-DS-128GB-8GB-RAM-FACTORY-UNLOCKED-6-7-64MP/202905303442?epid=27037171664", 
-        "html_tag": "prcIsum", 
-=======
-        "url": "https://www.bestbuy.com/site/samsung-galaxy-s20-5g-enabled-128gb-unlocked-cosmic-black/6395756.p?skuId=6395756", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
         "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-Plus-SM-G985F-DS-128GB-8GB-RAM-FACTORY-UNLOCKED-6-7-64MP/202905303442?epid=27037171664", 
         "html_tag": "notranslate", 
->>>>>>> master
         "vendor" : "ebay"
 
     },
     {
-<<<<<<< HEAD
         "url": "https://www.hsn.com/products/samsung-galaxy-s20-g985f-128gb-gsm-unlocked-android-sma/9485508", 
         "html_tag": "product-price", 
         "vendor" :  "hsn" 
     }, 
     {
-        "url": "
-        "html_tag": "
-        "vendor" : "
-    },
-=======
         "url": "https://www.newegg.com/samsung-galaxy-s20-5g-6-7-cosmic-black/p/N82E16875169855", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
     }
->>>>>>> master
 
     ]
 }

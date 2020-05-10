@@ -16,7 +16,6 @@
         "vendor" : "walmart" 
     },
     {
-<<<<<<< HEAD
         "url": "https://www.hsn.com/products/apple-iphone-11-pro-64gb-gsmcdma-unlocked-smartphone/9360241", 
         "html_tag": "product-price", 
         "vendor" : "hsn" 
@@ -25,16 +24,11 @@
         "url": "https://www.allelectronicsandmore.com/products/apple-iphone-11-pro-cell-phone-unlocked", 
         "html_tag": "price-item price-item--regular", 
         "vendor" : "all"
-=======
-        "url": "https://www.bestbuy.com/site/apple-iphone-11-pro-with-64gb-memory-cell-phone-unlocked-space-gray/6223200.p?skuId=6223200", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
+    }, 
     {
         "url": "https://www.newegg.com/apple-iphone-11-pro-5-8-4g-lte/p/23B-000A-00AW6", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
->>>>>>> master
     }
 
     ]

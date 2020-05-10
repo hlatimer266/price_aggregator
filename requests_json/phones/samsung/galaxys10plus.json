@@ -16,36 +16,20 @@
         "vendor" : "walmart" 
     },
     {
-<<<<<<< HEAD
-        "url": "https://www.ebay.com/itm/NEW-Samsung-Galaxy-S10-Plus-128-512GB-1TB-SM-G975U1-Unlocked-All-Colors/163793825474", 
-        "html_tag": "prcIsum", 
-=======
-        "url": "https://www.bestbuy.com/site/samsung-galaxy-s10-with-128gb-memory-cell-phone-unlocked-prism-black/6323863.p?skuId=6323863", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
         "url": "https://www.ebay.com/itm/NEW-Samsung-Galaxy-S10-Plus-128-512GB-1TB-SM-G975U1-Unlocked-All-Colors/163793825474", 
         "html_tag": "notranslate", 
->>>>>>> master
         "vendor" : "ebay"
 
     },
     {
-<<<<<<< HEAD
         "url": "https://www.hsn.com/products/samsung-galaxy-s10-64-128gb-qhd-unlocked-gsm-smartphone/9072601", 
-        "html_tag": "product-price"
+        "html_tag": "product-price",
         "vendor" : "hsn"
     },
     {
-        "url": "
-        "html_tag": 
-        "vendor" : 
-=======
         "url": "https://www.newegg.com/p/23B-0002-00BD0?Description=Samsung%20Galaxy%20S10plus&cm_re=Samsung_Galaxy_S10plus-_-9SIAJ3AA3S7785-_-Product", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
->>>>>>> master
     }
 
     ]

@@ -31,12 +31,7 @@ def lambda_handler(event, context):
 			p = re.compile(r'regularPrice\\":([\d.]+),')
 			formatted_price = p.findall(r.text)[0]
 		elif reqs['vendor'] == "newegg":
-<<<<<<< HEAD
-			headers = { 'User-Agent': 'Adam Mercado', 'From': 'mercadoa@oregonstate.edu'}
-=======
-			headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
-			, 'From': 'mercadoa@oregonstate.edu'}
->>>>>>> master
+			headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3', 'From': 'mercadoa@oregonstate.edu'}
 			page = requests.get(reqs['url'], headers = headers)
 			soup = BeautifulSoup(page.text, 'html.parser')
 			data = soup.find_all(type = 'application/ld+json')

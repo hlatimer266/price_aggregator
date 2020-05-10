@@ -1,12 +1,8 @@
 {
     "request" : [
     {
-        "url": "https://www.ebay.com/itm/Unlocked-Google-Pixel-3A-XL-64GB-CDMA-GSM-Black-White-Purple-Smartphone/202757052183?_trkparms=aid%3D1110001%26algo%3DSPLICE.SIM%26ao%3D1%26asc%3D20160323102634%26meid%3D6e98a5bdfeb7423abb998995f916a42c%26pid%3D100623%26rk%3D1%26rkt%3D5%26mehot%3Dpp%26sd%3D202721618157%26itm%3D202757052183%26pmt%3D0%26noa%3D1%26pg%3D2047675&_trksid=p2047675.c100623.m-1https://www.ebay.com/itm/Unlocked-Google-Pixel-3A-XL-64GB-CDMA-GSM-Black-White-Purple-Smartphone/202757052183?_trkparms=aid%3D1110001%26algo%3DSPLICE.SIM%26ao%3D1%26asc%3D20160323102634%26meid%3D6e98a5bdfeb7423abb998995f916a42c%26pid%3D100623%26rk%3D1%26rkt%3D5%26mehot%3Dpp%26sd%3D202721618157%26itm%3D202757052183%26pmt%3D0%26noa%3D1%26pg%3D2047675&_trksid=p2047675.c100623.m-1", 
-<<<<<<< HEAD
-        "html_tag": "prcIsum", 
-=======
+        "url": "https://www.ebay.com/itm/Google-Pixel-3a-XL-64GB-White-Sprint-Android-4G-LTE-Smartphone-EXCELLENT/174218359817?epid=23031776887&_trkparms=ispr%3D1&hash=item2890393409:g:3pcAAOSwEFheRj6G&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKNJpkvJd843sBLRdhZ0zmMOIvNUFYbLS%2FD6WVvrH3YPBp9vQh57j0VxVQuf%2BvfltKaTFv4BjdQIzjP7qAG8e%2Bm9AshKcbvXRjBZxfIJEqE0Tv6ZWVk7MNwRna9Ta1HYG%2Fjw8%2F1btPF0%2BDd2QvEjFkI6fLXHn6BPEnLjfTIXRMzg0W04zrPjYFlySqDmpdO5VGBsiYM32Ayzt1fKO6%2FDuDDDRORpO8URzmujqdB9SpPzg9iNjX6ltkRGVnhbjMRxTOhQcnFd31wThgOMqrJ%2F4hOwPnSOns1CguL3ikvUKVUQgwSttMQxSL0tp3wKdgjHl45USx5957EfLOsBO0SXQLU9cZlqG6XChxVm7RvkeMfp%2FO2Fdjj1Db7uPdK2Pk62aE8gJq5sGgm2fKmAvf6m4%2BrgQZcp7MHuUv1082cqy6qCiV9YEc%2Frhkq0Rj%2F15kVqXlKTiVSlJRAeh9MJrYXLqMRHfiwSPyfShzDmYqlTUFoKko7TM5tThqVJf30GSrzxl12JQnrDf6cEHwtRi%2FxAakogLhNEIXqfNO00RRvZ%2FQ80nVXZTdZqRhZk5NU7Anujt%2FbotPFqV0LTWR%2Fwy2%2BDQDmk0I0vkw7xug4Y8ukyFaC%2B5p2t2b310v9JEOyBvWal4I8ut%2B0p1DNLT%2FEKIbk3KiGBSDuod391h1jKIjatCSHJ9kbIO7trMKJ5TvBD6alPDjIrfA85xjIuoltppKDLm2wH9nOXPH7gvqrTFfss9EuWVRJJ5IyLjRhir%2FsPNGR6GP85735DjCo20A9GFPsaF7YQ%3D%3D&checksum=17421835981783f59482d88f4396a6a6d58bcd019617", 
         "html_tag": "notranslate", 
->>>>>>> master
         "vendor" : "ebay"
     },
     {
@@ -23,11 +19,6 @@
         "url": "https://www.walmart.com/ip/Google-Pixel-XL-3a-Black-Factory-Unlocked/767183825?selected=true", 
         "html_tag": "price-characteristic", 
         "vendor" : "walmart" 
-    },
-    {
-        "url": "https://www.bestbuy.com/site/google-pixel-3a-xl-64gb-unlocked-just-black/6347790.p?skuId=6347790", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
     },
     {
         "url": "https://www.newegg.com/black-google-pixel-3a-6-4g-lte/p/23B-001E-00124?Description=google%20pixel%203a%20Xl&cm_re=google_pixel_3a_Xl-_-9SIAFVD9R64004-_-Product&quicklink=true", 

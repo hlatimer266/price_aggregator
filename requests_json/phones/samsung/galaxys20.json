@@ -16,23 +16,13 @@
         "vendor" : "walmart" 
     },
     {
-        "url": "https://www.bestbuy.com/site/samsung-galaxy-s20-5g-enabled-128gb-unlocked-cloud-blue/6395747.p?skuId=6395747", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
-<<<<<<< HEAD
         "url": "https://www.hsn.com/products/samsung-galaxy-s20-g980f-128gb-gsm-unlocked-android-sma/9485504", 
-        "html_tag": "product-price, 
+        "html_tag": "product-price",
         "vendor" : "hsn"
 
     },
     {
-        "url": "
-        "html_tag": "
-        "vendor" :  "
-=======
-        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-128GB-8GB-SM-G980F-DS-Dual-Sim-FACTORY-UNLOCKED-6-2-64-MP/372949785456?_trkparms=ispr%3D1", 
+        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-SM-G980F-DS-128GB-8GB-RAM-FACTORY-UNLOCKED-6-2-64MP/202905298622?epid=3037893223&hash=item2f3e1926be:m:mlN2hLHAim4z_blodqtT19Q", 
         "html_tag": "notranslate", 
         "vendor" : "ebay"
 
@@ -41,7 +31,6 @@
         "url": "https://www.newegg.com/samsung-galaxy-s20-5g-6-2-cosmic-gray/p/N82E16875169850?Description=s20%205g&cm_re=s20_5g-_-75-169-850-_-Product", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
->>>>>>> master
     }
 
     ]

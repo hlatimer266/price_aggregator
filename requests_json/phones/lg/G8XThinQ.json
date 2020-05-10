@@ -1,12 +1,7 @@
 {
     "request" : [
-    {
-        "url": "https://www.bestbuy.com/site/lg-g8-thinq-with-128gb-memory-cell-phone-unlocked-aurora-black/6337607.p?skuId=6337607", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
-        "url": "https://www.newegg.com/lg-g8x-thinq-6-4-gsm-hspa-lte-aurora-black/p/23B-000F-001J6?Description=phones&cm_re=phones-_-9SIABPXB5J9800-_-Product", 
+    {   
+        "url": "https://www.newegg.com/black-lg-k30-5-3-4g-lte/p/N82E16875136496?Description=phones&cm_re=phones-_-9SIA25VA0U3274-_-Product", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
     }, 
@@ -17,25 +12,16 @@
     }, 
     {
         "url": "https://www.welectronics.com/shopping/gsm-phones/lg-g8x-thinq-unlocked-dual-sim-phone-128gb-detail", 
-<<<<<<< HEAD
-        "html_tag": "current_price", 
-        "vendor": "PricesalesPrice"
-    }, 
-    {
-        "url": "https://www.ebay.com/itm/LG-G8X-ThinQ-LMG850UM-Latest-128GB-Black-AT-T-GSM-Unlocked-T-Mobile-Smartphone/131840731869", 
-        "html_tag": "prcIsum", 
-=======
         "html_tag": "PricesalesPrice", 
         "vendor": "overseas"
     }, 
     {
-        "url": "https://www.ebay.com/itm/LG-G8X-ThinQ-LMG850UM-Latest-128GB-Black-AT-T-GSM-Unlocked-T-Mobile-Smartphone/131840731869", 
+        "url": "https://www.ebay.com/itm/LG-G8X-ThinQ-Dual-Screen-Unlocked-CDMA-GSM-Phone-6-4-OLED-6GB-128GB-US-Warranty/254457270811?epid=24035105827&hash=item3b3ed5d21b%3Ag%3AdgwAAOSwPjJd-8Pz&LH_ItemCondition=1000", 
         "html_tag": "notranslate", 
->>>>>>> master
-        "vendor" : "ebay"
-    },
+        "vendor": "ebay"
+    }, 
     {
-        "url": "https://www.walmart.com/ip/LG-G8-ThinQ-128GB-Unlocked-Smartphone-Black/724389745", 
+        "url": "https://www.walmart.com/ip/LG-LMG850QM7X-AUSABK-G8X-ThinQ-128GB-Dual-Screen-Smartphone-Unlocked-Black-Bundle-with-1-Year-Extended-Warranty/481214870", 
         "html_tag": "price-characteristic", 
         "vendor" : "walmart" 
     }
