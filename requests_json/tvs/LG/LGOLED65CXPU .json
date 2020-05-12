@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-2160P-OLED-Smart-TV-with-HDR-OLED65CXPUA-2020-Model/683532498",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1555067-REG/lg_oled65cxpua_cxpua_65_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/lg-oled-cx-65/p/16C-000P-004G1?Description=OLED65CXPUA&cm_re=OLED65CXPUA-_-16C-000P-004G1-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/144245/LG-65-CX-4K-HDR-Smart-OLED-TV-With-AI-ThinQ-OLED65CXPUA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}

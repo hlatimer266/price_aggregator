@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/TCL-75-Class-4K-UHD-LED-Roku-Smart-TV-HDR-4-Series-75S425/253145350",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1476133-REG/tcl_75s425_s425_75_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/16R-00TP-00004",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.ebay.com/p/4032439112?iid=163582053460",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+    }
+
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/VIZIO-65-Class-4K-UHD-Quantum-SmartCast-Smart-TV-HDR-M-Series-M658-G1/794717472",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1480357-REG/vizio_m_series_quantum_m658_g1_65.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/vizio-m-series-65/p/N82E16889262730?Description=M658-G1&cm_re=M658-G1-_-89-262-730-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.cdw.com/product/vizio-m658-g1-m-series-quantum-65-class-64.5-viewable-led-tv-4k/5719976?enkwrd=M658-G1",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+    }
+
+    ]
+}
