@@ -17,8 +17,6 @@ def lambda_handler(event,context):
             soup = BeautifulSoup(response.text, 'html.parser')
         except:
             print("request timed out for " + reqs['url'])
-            
-       
         if reqs['vendor'] == "walmart":
             price = soup.find(class_=reqs['html_tag'])
             try:
@@ -51,14 +49,18 @@ def lambda_handler(event,context):
                 formatted_price = price.span.get_text().strip()
             except:
                 formatted_price = "unavailable"
-        elif reqs['vendor'] == "bestbuy":
-            formatted_price = "unavailable"
-            '''
-            #unsure how to incorporate this regex, blocker
-            r = requests.get(url, headers = headers)
-            p = re.compile(r'regularPrice\\":([\d.]+),')
-            price = p.findall(r.text)[0]
-            '''
+        elif reqs['vendor'] == "hsn":
+            price = soup.find(class_=reqs['html_tag'])
+            formatted_price = price.get_text().strip()
+        elif reqs['vendor'] == "all":
+            price = soup.find(class_=reqs['html_tag'])
+            formatted_price = price.get_text().strip()
+        elif reqs['vendor'] == "macofalltrades":
+            price = soup.find(class_=reqs['html_tag'])
+            formatted_price = price.get_text().strip()
+        elif reqs['vendor'] == "cellbrokers":
+            price = soup.find(class_=reqs['html_tag'])
+            formatted_price = price.get_text().strip()
         results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price)})
         
  

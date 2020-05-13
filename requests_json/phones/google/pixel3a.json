@@ -1,7 +1,7 @@
 {
     "request" : [
     {
-        "url": "https://www.ebay.com/itm/Google-Pixel-3a-Smartphone-64GB-Unlocked-Just-Black-Brand-New/114017156941?epid=5031779894", 
+        "url": "https://www.ebay.com/itm/Fully-Unlocked-Google-Pixel-3a-3a-XL-64GB-Black-White-Purple-CDMA-GSM/183489503785?epid=28034687889&_trkparms=ispr%3D1&hash=item2ab8d3a229:m:mQA4nUhBnqZEXBOdui75bTw&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKBE6azt8cGhqIvkcfFDcbk4Du0kiZg0zH%2FM7TdrB14qheAqfA%2Fm7meKRk7bnqh%2Fd3rsx%2BTvvqyoFpE3tC4eQo1vKxZyYovP0HizGYn2Ao9dIkwe6fq%2BbNAK8LPbcthRoFmNRomb2MMa7lbyTP1sZHDBmwT9zhhJv%2FOYZnMpCNpHWK52q%2BLJjeWgYoH9h1iK%2FHjvLiNqHZFHPJg1WGuK1ipcLTSuyeE9tVxs9s2t0x5OqGPH%2FwUcZA9npiT2uqE3ETIJpnDs1T3PmbNhGysBHN6%2FLpem2ouHB6gfa4Q32DIdDjHG64Mvb5UWywMlGD%2BHaRJ%2F%2BFDT6UgBVlZA2kxKb6z3eIBvu%2BVf8xyG97BD9hOxahJGxAbgMN6k8WU4nAp%2FCm13Y2FjhBWwgvwM2qj9tBEd2Vmq9uushfv3gllviiEnyez7UP89ldVaX10FA%2BGcostqLeo2aopamQW8gefdrgOn3oQRiI2BmT%2Fy28P7AA9NAfnsc1VmZsvgCCXEUofv5Deo613cxSVxLAJ32pc5y%2BurrvJMWYZY%2FXdQdtFYXVm8uIoYvf8fSrpbXBmy6%2FzZDjZqLQOKZHQwKUrkV90U5RvoS6ARbtIg0bf0srk%2FMfmJ7P0wdxTZ7dwSqp8sb69p40gj8bWhQmgwLiMIhOYPghBJW7Eq%2FXeW%2F6mk%2BJHGHQdFe13d9nHnfljFZXx571mFU05WBZv7XvxILoiYFUfzRMR5rjmK3Tku9Eh6qsFFOL4wE2kBp4FHYdXuHDvLkIUUXbFwkv7%2FVl%2BmIgU8HkiZxVXg%3D%3D&checksum=183489503785cab76d2b3356424288e304f5af9fbcb4", 
         "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
@@ -19,11 +19,6 @@
         "url": "https://www.walmart.com/ip/Google-Pixel-3a-Black/663614013", 
         "html_tag": "price-characteristic", 
         "vendor" : "walmart" 
-    },
-    {
-        "url": "https://www.bestbuy.com/site/google-pixel-3a-64gb-unlocked-just-black/6347785.p?skuId=6347785", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
     },
     {
         "url": "https://www.newegg.com/black-google-5-6-gsm-hspa-lte/p/23B-001E-000W1?Description=google%20pixel&cm_re=google_pixel-_-23B-001E-000W1-_-Product", 
