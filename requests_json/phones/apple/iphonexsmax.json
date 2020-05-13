@@ -11,14 +11,19 @@
         "vendor" : "shopdevicesnow"
     }, 
     {
-        "url": "https://www.bestbuy.com/site/apple-iphone-xs-max-with-64gb-memory-cell-phone-unlocked-space-gray/7639067.p?skuId=7639067", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor": "bestbuy"
-    }, 
-    {
         "url": "https://www.walmart.com/ip/Straight-Talk-Apple-iPhone-XS-MAX-w-64GB-Gray/702494549", 
         "html_tag": "price-characteristic", 
         "vendor": "walmart"
+    }, 
+    {
+        "url": "https://www.macofalltrades.com/shop/apple-iphone-xs-max-at-t-64gb-space-gray-mt5v2ll-a-very-good-condition-iphonexsm-att-64-sg-b/", 
+        "html_tag": "price price--withoutTax", 
+        "vendor": "macofalltrades"
+    }, 
+    {
+        "url": "https://cellbrokerstech.com/products/iphone-xs-max-64gb-unlocked", 
+        "html_tag": "price-item price-item--sale", 
+        "vendor": "cellbrokers"
     }, 
     {
         "url": "https://www.newegg.com/grey-apple-6-gsm-hspa-lte/p/23B-000A-00802", 
