@@ -1,11 +1,6 @@
 {
     "request" : [
     {
-        "url": "https://www.bestbuy.com/site/lg-v40-thinq-with-64gb-memory-cell-phone-unlocked-aurora-black/6305718.p?skuId=6305718", 
-        "html_tag": "priceView-hero-price priceView-customer-price", 
-        "vendor" : "bestbuy" 
-    },
-    {
         "url": "https://www.newegg.com/lg-v40-thinq-6-4-4g-lte-aurora-black/p/23B-000F-001J9?Description=phones&cm_re=phones-_-23B-000F-001J9-_-Product", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
@@ -16,15 +11,14 @@
         "vendor": "bhphotovideo"   
     },
     {
-        "url": "https://www.ebay.com/itm/LG-V40-ThinQ-64GB-Black-Unlocked-Smartphone-LM-V405QA7USABK-QHD-OLED-Screen/362882303051?epid=8024885378", 
+        "url": "https://www.ebay.com/itm/LG-V40-ThinQ-LM-V405UA-64GB-Aurora-Black-AT-T-GSM-Unlocked-Brand-NEW/223941511887?epid=8024885378&hash=item3423f44acf%3Ag%3AdlIAAOSwSDxeZq3i&LH_ItemCondition=1000", 
         "html_tag": "notranslate", 
         "vendor" : "ebay"
     },
     {
-        "url": "https://www.walmart.com/ip/LG-V40-ThinQ-Smartphone-Black-LGV40/771963221", 
-        "html_tag": "price-characteristic", 
-        "vendor" : "walmart" 
+        "url": "https://www.welectronics.com/shopping/gsm-phones/lg-v40-thinq-lm-v405-unlocked-gsm-phone-128gb-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas" 
     }
-
     ]
 }

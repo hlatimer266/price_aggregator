@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-2160p-LED-Smart-TV-With-HDR-65UM6900PUA/747329331",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1484891-REG/lg_65um6900pua_um6900pua_65_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/16C-000P-00411?Description=65UM6900PUA&cm_re=65UM6900PUA-_-16C-000P-00411-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/137611/LG-65-Black-4K-HDR-Smart-LED-TV-65UM6900PUA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}

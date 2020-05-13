@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/TCL-43-Class-4K-UHD-LED-Smart-Roku-TV-4-Series-43S425/340179308",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1476129-REG/tcl_43s425_s425_43_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/1VH-01J3-00001?Description=43S425&cm_re=43S425-_-1VH-01J3-00001-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.ebay.com/p/14032464867?iid=153470120075",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+    }
+
+    ]
+}

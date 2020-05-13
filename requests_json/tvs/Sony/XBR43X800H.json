@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/Sony-43-Class-4K-UHD-LED-Android-Smart-TV-HDR-BRAVIA-800H-Series-XBR43X800H/337414535",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1545408-REG/sony_xbr43x800h_x800h_series_43_class.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/sony-x800h-43/p/16C-0006-002M4?Description=XBR-43X800H&cm_re=XBR-43X800H-_-16C-0006-002M4-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/142878/Sony-43-4K-Ultra-HD-LED-Smart-TV-XBR43X800H.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}
