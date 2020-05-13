@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/SAMSUNG-43-Class-4K-Crystal-UHD-2160P-LED-Smart-TV-with-HDR-UN43TU7000-2020/595456996",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1546579-REG/samsung_un43tu7000fxza_43_led_4k_uhd.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+      },
+      {
+        "url": "https://www.newegg.com/samsung-uhd-7-series-43/p/N82E16889356621?&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.abt.com/product/143470/Samsung-43-TU7000-Titan-Gray-Crystal-UHD-4K-Smart-HDTV-UN43TU7000FXZA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+      } 
+
+    ]
+}

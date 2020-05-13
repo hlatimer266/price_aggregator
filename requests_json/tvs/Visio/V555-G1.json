@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/VIZIO-55-Class-4K-UHD-LED-SmartCast-Smart-TV-HDR-V-Series-V555-G1/517736547",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1475318-REG/vizio_v555_g1_v_series_55_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/N82E16889262740?Description=V555-G1&cm_re=V555-G1-_-89-262-740-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.cdw.com/product/vizio-v555-g1-v-series-55-class-54.5-viewable-led-tv-4k/5605881?enkwrd=V555-G1",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+    }
+
+    ]
+}
