@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.ebay.com/itm/Nitro-5-17-3-HD-Full-17-3-inches-8GB-GTX-1650-Black-1920-x-1080-Full-HD-W10H/303559001579?hash=item46ad86c5eb:g:ragAAOSwwW9etEJf",
+        "html_tag":"prcIsum",
+        "vendor": "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-NVIDIA-Memory-Nitro-GTX-Black-Intel-Solid-GeForce-8GB-1650-Computer-Drive-17-3-Core-AN517-51-56YW-Notebook-Obsidian-i5-Acer-512GB-PC-5-State-G/409426147",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000X-00ZJ4?Description=AN517-51-56YW&cm_re=AN517-51-56YW-_-1TS-000X-00ZJ4-_-Product",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.shopdevicesnow.com/products/acer-nitro-5-gaming-laptop?_pos=4&_sid=89adee782&_ss=r",
+        "html_tag":"current_price",
+        "vendor": "shopdevicesnow"
+      }
+
+    ]
+}

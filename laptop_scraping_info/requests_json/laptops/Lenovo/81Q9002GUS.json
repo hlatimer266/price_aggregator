@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C940-2-in-1-14-FHD-TouchScreen-10th-Gen-i7-1065G7-12GB-512GB-SSD-FPR/233509613159?epid=19035661160&hash=item365e41ee67:g:S60AAOSw5eRereBc:sc:FedExHomeDelivery!14621!US!-1",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-Touch-Screen-Memory-Iron-C940-Intel-Solid-Computer-Drive-Tablet-14-Core-Lenovo-Gray-Notebook-81Q9002GUS-12GB-i7-512GB-PC-State-2-in-1-Yoga/683743162",
+        "html_tag":"price_characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000E-0F8Z3?Description=81Q9002GUS&cm_re=81Q9002GUS-_-1TS-000E-0F8Z3-_-Product",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1489641-REG/lenovo_20qf000kus_x1_yoga_i7_8665u_16gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}

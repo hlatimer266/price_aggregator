@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/ASUS-Q536FD-BI7T15-15-6-4K-UHD-Touch-i7-8565U-1-8GHz-16GB-2TB-256GB-GTX1050-W10/283867956213?epid=11034589785&hash=item4217d943f5:g:6bYAAOSwae9esHo7",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-Touch-Screen-NVIDIA-Memory-HDD-GTX-Metal-ASUS-Intel-GeForce-Q536FD-BI7T15-4K-16GB-Computer-Tablet-Core-2TB-Gun-Gray-Notebook-SSD-Ultra-1050-i7/755944865",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-001A-00ET3?Description=Q536FD-BI7T15&cm_re=Q536FD-BI7T15-_-1TS-001A-00ET3-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1549027-REG/asus_f512da_rs51_vivobook_amd_r5_3500u_8gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}

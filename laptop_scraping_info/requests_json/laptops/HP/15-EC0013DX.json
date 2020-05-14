@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/HP-15-6-Gaming-Laptop-AMD-Ryzen-5-8GB-Memory-NVIDIA-GeForce-GTX-1050/392776321640?epid=7035198816&hash=item5b734b0a68:g:r7kAAOSw4HFepFlj",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-NVIDIA-15-EC0013DX-Memory-HP-Shadow-GTX-Solid-GeForce-Black-8GB-AMD-Drive-Chrome-Finish-Ryzen-Notebook-Paint-1050-Green-5-State-256GB-15-6-Gam/846313398",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/N82E16834271325?Description=hp%20gaming%20laptop&cm_re=hp_gaming_laptop-_-34-271-325-_-Product",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1454764-REG/hp_5yn17ut_aba_250_g7_i5_8265u_4gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}

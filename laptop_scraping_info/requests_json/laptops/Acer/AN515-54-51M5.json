@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/NEW-Acer-Gaming-Laptop-AN515-54-51M5-GTX-1650-1TB-HD-128GB-SSD-i5-8GB-Notebook/373026210498?epid=2306090875&hash=item56da1842c2:g:y1EAAOSwXwtc9BPQ",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-NVIDIA-Memory-GTX-Black-Intel-Solid-GeForce-8GB-AN515-54-51M5-1650-128GB-Computer-Drive-Core-1TB-Obs-Notebook-Hard-i5-Acer-PC-State-Gaming/198385755",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/obsidian-black-acer-nitro-7-an715-51-73bu-gaming-entertainment/p/N82E16834316724?Description=acer%20nitro&cm_re=acer_nitro-_-34-316-724-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.shopdevicesnow.com/products/acer-nitro-5-15-6-gaming-laptop-intel-i5?_pos=5&_sid=89adee782&_ss=r",
+        "html_tag":"current_price",
+        "vendor": "shopdevicesnow"
+      }
+
+    ]
+}

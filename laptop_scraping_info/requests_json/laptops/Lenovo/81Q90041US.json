@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C940-2-in-1-14-4K-Ultra-HD-Touch-Screen-Laptop-Intel-Core-i7/202807946672?epid=23035069898&hash=item2f384badb0:g:4agAAOSwJU5ds5mN",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Lenovo-Yoga-C940-2-in-1-14-4K-Ultra-HD-Touch-Screen-Laptop-Intel-Core-i7-16GB-Memory-512GB-SSD-Mica-81Q90041US-Tablet-PC-Computer/176404113",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000E-0F9D6?Description=81Q90041US&cm_re=81Q90041US-_-9SIA8X5AGB9160-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1477622-REG/lenovo_81r00004us_s940_i7_8565u_8gb_256gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}
