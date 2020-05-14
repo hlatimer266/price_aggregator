@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.ebay.com/itm/Acer-Nitro-5-AN515-54-54W2-15-6-FHD-i5-9300H-NVIDIA-GTX-1050-8GB-256GB/324069933663?epid=5034604525&hash=item4b7412c25f:g:~RsAAOSwOiReleF8",
+        "html_tag":"prcIsum",
+        "vendor": "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Acer-Nitro-5-15-6-Gaming-Laptop-Intel-Core-i5-8GB-Memory-NVIDIA-GeForce-GTX-1050-256GB-Solid-State-Drive-Black/720273480",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-000X-01DF5?Description=AN515-54-54W2&cm_re=AN515-54-54W2-_-1TS-000X-01DF5-_-Product",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1485583-REG/acer_nh_q5faa_003_nitro_7_i7_9750h_8gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}
