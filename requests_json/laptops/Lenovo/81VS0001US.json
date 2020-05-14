@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/lenovo-ideapad-1-14-laptop-amd-a6-series-4gb-memory-amd-radeon-r4-64gb-emmc-flash-memory-platinum-gray/6359222.p?skuId=6359222",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/IdeaPad-1-14-1366-x-768-HD-4GB-W10H-14-inches-AMD-Radeon-R4-Gray-A6-9220e/303558923447?hash=item46ad8594b7:g:PTwAAOSwvHletk5A",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/Lenovo-IdeaPad-1-A6-9220e-14-AMD-A6-9220e-64GB-4GB-RAM-Gray-81VS0001US/711787502",
+        "html_tag": "price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/gray-lenovo-ideapad-1-81vs0001us/p/1TS-000E-0FC04?Description=81VS0001US&cm_re=81VS0001US-_-9SIAEYJAKK0926-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Lenovo-S150-81VS0001US-A6-9220e-Bluetooth/dp/B081ZGN8JQ/ref=sr_1_2?dchild=1&m=A3EMUGYCY87GQ1&marketplaceID=ATVPDKIKX0DER&qid=1587466504&refinements=p_4%3ALenovo&s=merchant-items&sr=1-2",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1484631-REG/lenovo_81mq000nus_computer.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]

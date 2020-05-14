@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/apple-macbook-pro-13-display-with-touch-bar-intel-core-i5-8gb-memory-128gb-ssd-latest-model-space-gray/5998700.p?skuId=5998700",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/Apple-13-3-MacBook-Pro-with-Touch-Bar-Space-Gray-MUHN2LL-A-Mid-2019/164044985652?epid=14032813598&hash=item2631d7d534:g:vEUAAOSwU0VeKaiY",
+        "html_tag": "prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/New-Apple-MacBook-Pro-13-inch-Intel-Core-i5-8GB-RAM-128GB-Storage-Space-Gray/478880527",
+        "html_tag": "price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-000M-006W9?Item=1TS-000M-006W9&Tpk=MUHN2LL%2fA",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Apple-MacBook-13-inch-128GB-Storage/dp/B07V49KGVQ/ref=sr_1_2?dchild=1&keywords=MUHN2LL%2FA&qid=1586842049&sr=8-2&th=1",
-        "vendor": "amazon"
+        "url": "https://www.shopdevicesnow.com/products/apple-macbook-air-w-touch-13-3-mvfm2ll-a-i5-128gb-8gb-ram-laptop-gold-2019?_pos=6&_sid=7dc711c52&_ss=r",
+        "html_tag":"current_price",
+        "vendor": "shopdevicesnow"
       }
 
     ]
