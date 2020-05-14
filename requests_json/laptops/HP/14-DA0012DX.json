@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/HP-2-in-1-14-Touch-Screen-Chromebook-Intel-Core-i3-8GB-Memory-64GB-e/324112628076?epid=28035152759&hash=item4b769e396c:g:dpEAAOSwWGJds5iu",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-2-in-1-14-Full-HD-Touchscreen-Chromebook-x360-Core-i3-8130U-8GB-RAM-64GB-eMMC/814497767",
+        "html_tag":"price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/hp-chromebook-x360/p/2S3-0002-001U7?Description=14-DA0012DX&cm_re=14-DA0012DX-_-2S3-0002-001U7-_-Product",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1437397-REG/hp_4sh02ua_aba_chromebook_x360_11_ae110nr_celeron.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}

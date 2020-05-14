@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url":"https://www.ebay.com/itm/Pavilion-x360-11-6-N5000-11-6-inches-Touchscreen-TOUCH-4GB-Touch-W10H-Silver/293569119841?hash=item445a154661:g:8PMAAOSw9~xetD28",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Laptop-x360-Touch-Screen-Memory-HP-Natural-Intel-Solid-4GB-Pavilion-Pentium-Ash-128GB-Frame-Computer-Drive-Tablet-Notebook-Keyboard-11M-AP0013DX-Silv/972520836",
+        "html_tag":"price-chracteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.newegg.com/p/1TS-006W-00078?Description=11M-AP0013DX&cm_re=11M-AP0013DX-_-9SIA8X59XB1269-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1543963-REG/hp_1a767ut_aba_chromebook_x360_11_g3.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
+      }
+
+    ]
+}
