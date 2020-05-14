@@ -61,6 +61,7 @@ def lambda_handler(event,context):
         elif reqs['vendor'] == "cellbrokers":
             price = soup.find(class_=reqs['html_tag'])
             formatted_price = price.get_text().strip()
+            
         results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price)})
         
  
