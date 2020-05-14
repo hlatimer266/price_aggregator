@@ -81,35 +81,6 @@ function monitors_options(option){
         }
     }
 }
-function phones_options(option){
-	var length = model.options.length;
-	for (i = length-1; i >= 1; i--) {
- 		model.options[i] = null;
-	}
-    if (option >= 0){
-        for (i = 0; i < monitor_models[option].length; i++){
-            var opt = document.createElement("option");
-            opt.value = i;
-            opt.text = monitor_models[option][i];
-            model.add(opt, null);
-        }
-    }
-}
-
-function phones_options(option){
-	var length = model.options.length;
-	for (i = length-1; i >= 1; i--) {
- 		model.options[i] = null;
-	}
-    if (option >= 0){
-        for (i = 0; i < phone_models[option].length; i++){
-            var opt = document.createElement("option");
-            opt.value = i;
-            opt.text = phone_models[option][i];
-            model.add(opt, null);
-        }
-    }
-}
 
 function phones_options(option){
 	var length = model.options.length;
@@ -161,7 +132,7 @@ function price_page(){
 		var query_parm = phones[brand_index] + "/" + phone_models[brand_index][model_index];
 	}
 	else if (categories[category_index-1] == "tv") {
-		var query_parm = phones[brand_index] + "/" + tv_models[brand_index][model_index];
+		var query_parm = tvs[brand_index] + "/" + tv_models[brand_index][model_index];
 	}
 
 	console.log('/'+ categories[category_index-1] +'?parm='+ query_parm + '.json')
