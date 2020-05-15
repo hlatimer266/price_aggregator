@@ -1,0 +1,36 @@
+{
+    "request" : [
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/samsung-galaxy-s20-plus-g985fds-unlocked-gsm-phone-9865-9866-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1543094-REG/samsung_sm_g986uzkaxaa_galaxy_s20_sm_g986u_128gb.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://www.walmart.com/ip/SAMSUNG-Unlocked-Galaxy-S20-Plus-128GB-Black-Smartphone/639071082", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-Plus-SM-G985F-DS-128GB-8GB-RAM-FACTORY-UNLOCKED-6-7-64MP/202905303442?epid=27037171664", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+
+    },
+    {
+        "url": "https://www.hsn.com/products/samsung-galaxy-s20-g985f-128gb-gsm-unlocked-android-sma/9485508", 
+        "html_tag": "product-price", 
+        "vendor" :  "hsn" 
+    }, 
+    {
+        "url": "https://www.newegg.com/samsung-galaxy-s20-5g-6-7-cosmic-black/p/N82E16875169855", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}

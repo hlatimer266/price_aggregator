@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/Sony-85-Class-4K-UHD-LED-Android-Smart-TV-HDR-BRAVIA-850G-Series-XBR85X850G/885427474",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1469293-REG/sony_xbr85x850g_x850g_85_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/sony-xbr-x850g-series-85/p/16C-0006-001M8?Description=XBR85X850G&cm_re=XBR85X850G-_-16C-0006-001M8-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/134082/Sony-85-Motionflow-XR-960-4K-HDR-Smart-HDTV-XBR85X850G.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}

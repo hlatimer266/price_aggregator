@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/LG-77-Inch-Class-OLED-C9-Series-4K-2160P-Smart-Ultra-HD-HDR-TV-OLED77C9PUA-2019-Model/761326998",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1461480-REG/lg_oled77c9pub_c9_77_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/lg-c9-77/p/16C-000P-003S1?Description=OLED77C9PUB&cm_re=OLED77C9PUB-_-16C-000P-003S1-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/133304/LG-77-C9-4K-HDR-Smart-OLED-TV-With-AI-ThinQ-OLED77C9PUB.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}

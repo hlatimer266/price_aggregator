@@ -1,0 +1,38 @@
+{
+    "request" : [
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/samsung-galaxy-s20-unlocked-gsm-phone-9860-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1543089-REG/samsung_sm_g981uzaaxaa_galaxy_s20_sm_g981u_128gb.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://www.walmart.com/ip/SAMSUNG-Unlocked-Galaxy-S20-128GB-Gray-Smartphone/556470530", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.hsn.com/products/samsung-galaxy-s20-g980f-128gb-gsm-unlocked-android-sma/9485504", 
+        "html_tag": "product-price",
+        "vendor" : "hsn"
+
+    },
+    {
+        "url": "https://www.ebay.com/itm/Samsung-Galaxy-S20-SM-G980F-DS-128GB-8GB-RAM-FACTORY-UNLOCKED-6-2-64MP/202905298622?epid=3037893223&hash=item2f3e1926be:m:mlN2hLHAim4z_blodqtT19Q", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+
+    },
+    {
+        "url": "https://www.newegg.com/samsung-galaxy-s20-5g-6-2-cosmic-gray/p/N82E16875169850?Description=s20%205g&cm_re=s20_5g-_-75-169-850-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}
+

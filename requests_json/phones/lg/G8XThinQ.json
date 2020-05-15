@@ -1,0 +1,31 @@
+{
+    "request" : [
+    {   
+        "url": "https://www.newegg.com/black-lg-k30-5-3-4g-lte/p/N82E16875136496?Description=phones&cm_re=phones-_-9SIA25VA0U3274-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }, 
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1512988-REG/lg_lmg850qm7x_ausabk_g8x_thinq_128gb_smartphone.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"
+    }, 
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/lg-g8x-thinq-unlocked-dual-sim-phone-128gb-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor": "overseas"
+    }, 
+    {
+        "url": "https://www.ebay.com/itm/LG-G8X-ThinQ-Dual-Screen-Unlocked-CDMA-GSM-Phone-6-4-OLED-6GB-128GB-US-Warranty/254457270811?epid=24035105827&hash=item3b3ed5d21b%3Ag%3AdgwAAOSwPjJd-8Pz&LH_ItemCondition=1000", 
+        "html_tag": "notranslate", 
+        "vendor": "ebay"
+    }, 
+    {
+        "url": "https://www.walmart.com/ip/LG-LMG850QM7X-AUSABK-G8X-ThinQ-128GB-Dual-Screen-Smartphone-Unlocked-Black-Bundle-with-1-Year-Extended-Warranty/481214870", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    }
+
+    ]
+}
+

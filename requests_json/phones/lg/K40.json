@@ -1,0 +1,31 @@
+{
+    "request" : [
+    {
+        "url": "https://www.newegg.com/lg-k20-5-7-4g-lte/p/23B-000F-001E3?Description=lg%20k40&cm_re=lg_k40-_-23B-000F-001E3-_-Product&quicklink=true", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }, 
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1493248-REG/lg_lmx420qn_ausaplh_k40_16gb_smartphone_unlocked.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    },
+    {
+        "url": "https://www.ebay.com/itm/LG-K40-LM-X420AS-AT-T-Unlocked-32GB-GSM-4G-LTE-Phone-Black-New/143596282753?epid=4035661171&hash=item216f016381:g:o24AAOSwz8teanPT", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/lg-k40-unlocked-dual-sim-phone-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas" 
+    }, 
+    {
+        "url": "https://www.hsn.com/products/lg-k40-x420-32gb-unlocked-gsm-phone-w16mp-camera-aurora/9449201", 
+        "html_tag": "product-price", 
+        "vendor" : "hsn" 
+    }
+
+    ]
+}
+

@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/VIZIO-65-Class-4K-UHD-Quantum-SmartCast-Smart-TV-HDR-P-Series-P659-G1/649827918",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1480358-REG/vizio_p_series_quantum_p659_g1_65.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/vizio-p-series-65/p/N82E16889262731?Description=P659-G1&cm_re=P659-G1-_-89-262-731-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.cdw.com/product/vizio-p659-g1-p-series-quantum-65-class-64.5-viewable-led-tv-4k/5924583?enkwrd=P659-G1",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+    }
+
+    ]
+}

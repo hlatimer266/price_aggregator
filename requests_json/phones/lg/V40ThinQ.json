@@ -1,0 +1,24 @@
+{
+    "request" : [
+    {
+        "url": "https://www.newegg.com/lg-v40-thinq-6-4-4g-lte-aurora-black/p/23B-000F-001J9?Description=phones&cm_re=phones-_-23B-000F-001J9-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }, 
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1436639-REG/lg_lmv405qa7_ausabk_v40_thinq_64gb_smartphone.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    },
+    {
+        "url": "https://www.ebay.com/itm/LG-V40-ThinQ-LM-V405UA-64GB-Aurora-Black-AT-T-GSM-Unlocked-Brand-NEW/223941511887?epid=8024885378&hash=item3423f44acf%3Ag%3AdlIAAOSwSDxeZq3i&LH_ItemCondition=1000", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.welectronics.com/shopping/gsm-phones/lg-v40-thinq-lm-v405-unlocked-gsm-phone-128gb-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas" 
+    }
+    ]
+}

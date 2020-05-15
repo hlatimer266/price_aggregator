@@ -1,0 +1,31 @@
+{
+    "request" : [
+    {
+        "url": "https://www.ebay.com/itm/Google-Pixel-4-XL-64gb-Multiple-Colors-Factory-Unlocked-Brand-New/153752496941?epid=22034779295&hash=item23cc5ceb2d%3Am%3Amu8Wa0bwr_fiu48SoklBdtw%3Asc%3AUSPSPriorityMailPaddedFlatRateEnvelope%2178713%21US%21-1&LH_ItemCondition=1000", 
+        "html_tag": "notranslate", 
+        "vendor" : "ebay"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1507481-REG/google_ga01180_us_pixel_4_xl_64gb.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor": "bhphotovideo"   
+    }, 
+    {
+        "url": "https://welectronics.com/shopping/gsm-phones/google-pixel-4-xl-unlocked-gsm-phone-detail", 
+        "html_tag": "PricesalesPrice", 
+        "vendor" : "overseas"
+    },
+    {
+        "url": "https://www.walmart.com/ip/Google-Pixel-4-XL-Black-64-GB-Unlocked/419637576", 
+        "html_tag": "price-characteristic", 
+        "vendor" : "walmart" 
+    },
+    {
+        "url": "https://www.newegg.com/p/23B-001E-001E0?Description=google%20pixel&cm_re=google_pixel-_-9SIAJNJB7U6146-_-Product", 
+        "html_tag": "application/ld+json", 
+        "vendor" :  "newegg" 
+    }
+
+    ]
+}
+

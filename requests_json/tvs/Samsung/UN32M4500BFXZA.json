@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/SAMSUNG-32-Class-HD-720P-Smart-LED-TV-UN32M4500/996476748",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1395973-REG/samsung_un32m4500bfxza_m4500_series_32_smart.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+      },
+      {
+        "url": "https://www.newegg.com/samsung-series-4-32/p/N82E16889356447?Description=UN32M4500BFXZA&cm_re=UN32M4500BFXZA-_-89-356-447-_-Product",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.abt.com/product/112742/Samsung-32-Black-LED-720P-Smart-HDTV-UN32M4500BFXZA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+      } 
+
+    ]
+}

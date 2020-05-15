@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/LG-OLED55GXPUA-55-GX-4K-Smart-OLED-TV-w-AI-ThinQ-2020-Model/498430870",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1555065-REG/lg_oled55gxpua_gxpua_55_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/lg-oled-gx-55/p/16C-000P-004H3?Description=OLED55GXPUA&cm_re=OLED55GXPUA-_-9SIAJKJBA84640-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/144243/LG-55-GX-4K-HDR-Smart-OLED-TV-With-AI-ThinQ-OLED55GXPUA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/LG-75-Class-9-Series-4K-2160P-Ultra-HD-Smart-LED-HDR-NanoCell-TV-75SM9070PUA-2019-Model/784518756",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1461471-REG/lg_75sm9070pua_sm9070_75_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/16C-000P-003R7?Description=75SM9070PUA&cm_re=75SM9070PUA-_-16C-000P-003R7-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.abt.com/product/133292/LG-Nano-9-Series-4K-75-Class-Smart-UHD-NanoCell-TV-w-AI-ThinQ-75SM9070PUA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+    }
+
+    ]
+}
