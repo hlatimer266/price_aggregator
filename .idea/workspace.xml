@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="576356b8-acae-43c6-b16a-64cf69ffdacb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/price_agg_frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/price_agg_frontend/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="576356b8-acae-43c6-b16a-64cf69ffdacb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +56,7 @@
       <workItem from="1588807519470" duration="3063000" />
       <workItem from="1588814226931" duration="1378000" />
       <workItem from="1588815668721" duration="507000" />
+      <workItem from="1589433181293" duration="95000" />
     </task>
     <servers />
   </component>
