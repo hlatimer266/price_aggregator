@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/asus-vivobook-15-15-6-laptop-intel-core-i7-12gb-memory-256gb-solid-state-drive-transparent-silver/6375338.p?skuId=6375338",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/ASUS-VivoBook-15-X512FA-15-6-FHD-i7-8565U-12GB-256GB-SSD-Silver/324069890229?epid=26035080044&hash=item4b741218b5:g:HOkAAOSw-wVeld5A",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/ASUS-VivoBook-15-15-6-Laptop-Intel-Core-i7-12GB-Memory-256GB-Solid-State-Drive-Transparent-Silver-Notebook-PC-Computer-X512FA-BI7A/872990024",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-001A-01ST0?Description=X512FA-BI7A&cm_re=X512FA-BI7A-_-9SIA7ABB094578-_-Product",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/ASUS-VivoBook-Entertainment-i7-8565U-1920x1080/dp/B0844ZSQQT/ref=sr_1_2?dchild=1&keywords=X512FA-BI7A&qid=1586836494&sr=8-2",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1493581-REG/asus_s512fl_pb76_vbs_i7_8565u_1_6g_8gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]
