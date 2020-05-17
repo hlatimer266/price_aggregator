@@ -100,6 +100,13 @@ app.get('/cell_phone',function(req, res) {
             });
         
     });
+<<<<<<< HEAD
+
+
+})
+
+app.get('/laptop',function(req, res) {
+=======
 })
 
 app.get('/laptop',function(req, res) {
@@ -148,6 +155,7 @@ app.get('/laptop',function(req, res) {
 })
 
 app.get('/tv',function(req, res) {
+>>>>>>> fbd997fe7313ea166d5a5e224e6a5efb17e26a00
 
     console.log(req.query.parm);
 
@@ -162,7 +170,11 @@ app.get('/tv',function(req, res) {
     var s3 = new AWS.S3();
     var lambda = new AWS.Lambda();
     var options = {
+<<<<<<< HEAD
+        Bucket : 'laptops-bb-361',
+=======
         Bucket : 'tvs-bb-361',
+>>>>>>> fbd997fe7313ea166d5a5e224e6a5efb17e26a00
         Key : req.query.parm,
         ResponseContentType : 'application/json'
     }
@@ -171,7 +183,11 @@ app.get('/tv',function(req, res) {
         var s3_response = data.Body.toString()
 
         var params = {
+<<<<<<< HEAD
+            FunctionName: 'laptop_scrape', /* required */
+=======
             FunctionName: 'scrape_prices_tvs', /* required */
+>>>>>>> fbd997fe7313ea166d5a5e224e6a5efb17e26a00
             Payload: s3_response
             };
 
@@ -184,7 +200,11 @@ app.get('/tv',function(req, res) {
                 brand_model = req.query.parm.replace(".json","")
                 context['product'] = brand_model.replace('/'," - ");
 
+<<<<<<< HEAD
+                res.render('laptop.handlebars',context)
+=======
                 res.render('tv.handlebars',context)
+>>>>>>> fbd997fe7313ea166d5a5e224e6a5efb17e26a00
             });
 
     });

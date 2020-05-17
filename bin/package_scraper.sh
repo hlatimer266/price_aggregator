@@ -41,6 +41,7 @@ pushd venv/lib/python3.7/site-packages
 
 popd
 
+
 mv scrape_phones.zip scrape_monitors.zip scrape_tvs.zip scrape_laptops.zip python_lambdas
 
 pushd python_lambdas

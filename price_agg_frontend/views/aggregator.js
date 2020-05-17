@@ -13,6 +13,7 @@ var monitor_models = [['V206HQL','V226HQL','V246HQL','B206HQL','B226WL'],['PB238
 var laptop_models = [['AN515-54-54W2','CP315-1H-P8QY','AN515-54-51M5','AN517-51-56YW'],['MUHN2LL/A','MUHP2LL/A','MV962LL/A','MV912LL/A'],['MJ401TA-BM3N5','GA502DU-BR7N6','X512FA-BI7A','Q536FD-BI7T15'],['15-EC0013DX','11M-AP0013DX','14-DK0002DX','14-DA0012DX'],['81VS0001US','81Q9002GUS','81Q90041US','81TC000JUS']]
 var phone_models = [['iphone11', 'iphone11Pro', 'iphonexr', 'iphonexsmax'], ['pixel3a', 'pixel3axl', 'pixel4', 'pixel4xl'], ['G8XThinQ', 'K40', 'stylo5', 'V40ThinQ'], ['galaxys10plus', 'galaxys20', 'galaxys20plus', 'galaxys20ultra']]
 
+
 function brand_options(option){
 	var length = brand.options.length;
 	for (i = length-1; i >= 1; i--) {
@@ -122,6 +123,9 @@ brand.addEventListener("change",function(){
 	var choice = brand.options[brand.selectedIndex].value;
 	if (category_choice == 1){
 	    tv_options(choice);
+	}
+	if (category_choice == 2){
+		laptop_options(choice);
 	}
 	if (category_choice == 3) {
 		monitors_options(choice)
