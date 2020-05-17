@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/acer-nitro-5-17-3-gaming-laptop-intel-core-i5-8gb-memory-nvidia-geforce-gtx-1650-512gb-solid-state-drive-black/6345056.p?skuId=6345056",
-        "vendor" : "bestbuy"
+        "url": "https://www.ebay.com/itm/Nitro-5-17-3-HD-Full-17-3-inches-8GB-GTX-1650-Black-1920-x-1080-Full-HD-W10H/303559001579?hash=item46ad86c5eb:g:ragAAOSwwW9etEJf",
+        "html_tag":"prcIsum",
+        "vendor": "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/Laptop-NVIDIA-Memory-Nitro-GTX-Black-Intel-Solid-GeForce-8GB-1650-Computer-Drive-17-3-Core-AN517-51-56YW-Notebook-Obsidian-i5-Acer-512GB-PC-5-State-G/409426147",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-000X-00ZJ4?Description=AN517-51-56YW&cm_re=AN517-51-56YW-_-1TS-000X-00ZJ4-_-Product",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Acer-Nitro-AN517-51-56YW-i5-9300H-1650-8GB/dp/B07RJQHRFV/ref=sr_1_5?dchild=1&m=A1DXA8L14YPJ9&marketplaceID=ATVPDKIKX0DER&qid=1586924143&refinements=p_4%3AAcer&s=merchant-items&sr=1-5",
-        "vendor": "amazon"
+        "url": "https://www.shopdevicesnow.com/products/acer-nitro-5-gaming-laptop?_pos=4&_sid=89adee782&_ss=r",
+        "html_tag":"current_price",
+        "vendor": "shopdevicesnow"
       }
 
     ]
