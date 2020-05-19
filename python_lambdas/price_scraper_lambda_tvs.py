@@ -51,9 +51,12 @@ def lambda_handler(event, context):
                 formatted_price = dictionary_data.get('price')
             except:
                 formatted_price = "unavailable"
+                
 
-            
-        results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price)})
+        if formatted_price.find("$") == -1 and formatted_price != "unavailable":
+            formatted_price = "$" + formatted_price
+
+        results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price), "url": str(reqs["url"])})
         
  
     return {

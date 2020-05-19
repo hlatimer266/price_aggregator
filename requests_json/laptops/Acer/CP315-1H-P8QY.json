@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/acer-spin-15-2-in-1-15-6-touch-screen-chromebook-intel-pentium-4gb-memory-32gb-emmc-flash-memory-sparkly-silver/6294312.p?skuId=6294312",
-        "vendor" : "bestbuy"
+        "url": "https://www.ebay.com/itm/Acer-Chromebook-Spin-15-Cp315-1h-p8qy-15-6-Touchscreen-Lcd-2-In-1-Chromebook/233550998121?epid=23024821936&hash=item3660b96a69:g:f3cAAOSwK05el5Ov",
+        "html_tag":"prcIsum",
+        "vendor": "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/1080-Spin-Memory-In-p-Intel-Pentium-CP315-1H-P8QY-Chrome-Sparkly-GB-Flash-Chromebook-32-Touchscreen-15-OS-N4200-Acer-Graphics-1-1920-Silver-2-4-x-505/992776713",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-000X-01ZM4?Description=CP315-1H-P8QY&cm_re=CP315-1H-P8QY-_-1TS-000X-01ZM4-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Acer-Chromebook-Quad-Core-Processor-CB3-532-108H/dp/B07TD6T9WV/ref=sr_1_12?crid=UHO8QEARXOHC&dchild=1&keywords=acer+chromebook+spin+15&qid=1587467480&s=electronics&sprefix=acer+ch%2Celectronics%2C170&sr=1-12",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1513058-REG/acer_nx_gzraa_011_spin_3_2_in_1_i3_8130u.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]

@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/asus-rog-zephyrus-g-15-6-gaming-laptop-amd-ryzen-7-16gb-memory-nvidia-geforce-gtx-1660-ti-max-q-512gb-ssd-metalic-hairline-black/6335912.p?skuId=6335912",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/ASUS-ROG-Zephyrus-G-15-6-Gaming-Laptop-AMD-Ryzen-7-16GB-Memory-NVIDI/202985733310?epid=21034149158&hash=item2f42e47cbe:g:HV4AAOSwQQxcydZ0",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/ASUS-ROG-Strix-Gaming-Laptop-15-6-Intel-Core-i7-8750-NVIDIA-GeForce-GTX-1060-6GB-1TB-256GB-SSD-Storage-16GB-RAM-GL504GM-DS74/490837399",
+        "html_tag":"price-chracteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/black-asus-ga502d-gaming-entertainment/p/1TS-001A-00J18?Description=GA502DU-BR7N6&cm_re=GA502DU-BR7N6-_-1TS-001A-00J18-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/ASUS-GA502DU-Ryzen-3750H-NVIDIA/dp/B07RDJ8DRQ/ref=sr_1_1?dchild=1&fst=as%3Aoff&m=A3GHG9FC38MK1S&qid=1586923735&refinements=p_4%3AASUS&s=merchant-items&sr=1-1",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1558020-REG/asus_ga502iv_xs76_rog_zephyrus_g15_15_6.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]
