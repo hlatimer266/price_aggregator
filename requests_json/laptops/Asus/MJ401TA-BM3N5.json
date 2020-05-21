@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/asus-imaginebook-mj401ta-14-laptop-intel-core-m3-4gb-memory-128gb-solid-state-drive-textured-white/6375336.p?skuId=6375336",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/Brand-New-ASUS-MJ401TA-BM3N5-14-Laptop-Intel-Core-M3-4GB-128GB-SSD-Win-10/143584181176?hash=item216e48bbb8:g:dlMAAOSwQ8Vem02I",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/ASUS-ImagineBook-MJ401TA-14-Laptop-Intel-Core-m3-4GB-Memory-128GB-Solid-State-Drive-Textured-White/701368930",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-001A-010J6?Description=MJ401TA-BM3N5&cm_re=MJ401TA-BM3N5-_-9SIA8X5AFG7200-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/ASUS-ImagineBook-Computer-m3-8100Y-Graphics/dp/B0811DJM4N/ref=sr_1_1?dchild=1&keywords=MJ401TA-BM3N5&qid=1586843415&sr=8-1",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1502342-REG/asus_j401ma_ys02_vivabook_flip_n4000_4gb_64gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]
