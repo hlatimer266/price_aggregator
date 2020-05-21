@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/SAMSUNG-55-Class-4K-Crystal-UHD-2160P-LED-Smart-TV-with-HDR-UN55TU8000-2020/244625821",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1546584-REG/samsung_un55tu8000fxza_55_led_4k_uhd.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+      },
+      {
+        "url": "https://www.newegg.com/samsung-uhd-8-series-55/p/N82E16889356612",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+      },
+      {
+        "url": "https://www.abt.com/product/143218/Samsung-55-TU8000-Black-Crystal-UHD-4K-Smart-HDTV-UN55TU8000FXZA.html",
+        "html_tag": "price",
+        "vendor": "abt"
+      }
+
+    ]
+}

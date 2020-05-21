@@ -1,0 +1,24 @@
+{
+    "request" : [{
+        "url": "https://www.walmart.com/ip/VIZIO-65-Class-4k-UHD-LED-SmartCast-Smart-TV-HDR-V-Series-V655-G9/316226539",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+    },
+    {
+        "url": "https://www.bhphotovideo.com/c/product/1475320-REG/vizio_v655_g9_v_series_65_class_hdr.html",
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bh"
+    },
+    {
+        "url": "https://www.newegg.com/p/N82E16889262723?Description=V655-G9&cm_re=V655-G9-_-89-262-723-_-Product&quicklink=true",
+        "html_tag": "application/ld+json",
+        "vendor": "newegg"
+    },
+    {
+        "url": "https://www.cdw.com/product/vizio-4k-hdr-smart-tv-v655-g9-v-series-65-class-64.5-viewable-led-tv/5616692?enkwrd=V655-G9",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+    }
+
+    ]
+}

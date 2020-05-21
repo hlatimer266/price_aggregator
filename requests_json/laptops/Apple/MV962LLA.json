@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/apple-macbook-pro-13-display-with-touch-bar-intel-core-i5-8gb-memory-256gb-ssd-space-gray/4599700.p?skuId=4599700",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/Apple-Macbook-Pro-13-w-TouchBar-Intel-Core-i5-8GB-256GBSSD-Space-Gray-MV962LL-A/164030699728?hash=item2630fdd8d0:g:b5kAAOSw8iJeHUEn",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/Apple-13-3-MacBook-Pro-with-Touch-Bar-Mid-2019-Space-Gray-MV962LL-A-With-Cleaning-Kit-and-Soft-Case-Base-Bundle/833119287",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/space-gray-apple-macbook-pro-mv962ll-a-creating-designing/p/2SN-0001-01364?Description=MV962LL%2fA&cm_re=MV962LL%2fA-_-9SIAKTXB1R8631-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Apple-MacBook-13-inch-2-3GHz-256GB/dp/B07J3RG68L/ref=sr_1_6?dchild=1&keywords=macbook+pro+13+in+256&qid=1586923424&s=electronics&sr=1-6",
-        "vendor": "amazon"
+        "url": "https://www.shopdevicesnow.com/products/space-gray-apple-macbook-pro?_pos=8&_sid=5454d2aa6&_ss=r",
+        "html_tag":"shopdevicesnow",
+        "vendor": "current_price"
       }
 
     ]

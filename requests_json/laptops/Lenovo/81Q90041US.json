@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/lenovo-yoga-c940-2-in-1-14-4k-ultra-hd-touch-screen-laptop-intel-core-i7-16gb-memory-512gb-ssd-32gb-optane-mica/6369421.p?skuId=6369421",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C940-2-in-1-14-4K-Ultra-HD-Touch-Screen-Laptop-Intel-Core-i7/202807946672?epid=23035069898&hash=item2f384badb0:g:4agAAOSwJU5ds5mN",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/Lenovo-Yoga-C940-2-in-1-14-4K-Ultra-HD-Touch-Screen-Laptop-Intel-Core-i7-16GB-Memory-512GB-SSD-Mica-81Q90041US-Tablet-PC-Computer/176404113",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-000E-0F9D6?Description=81Q90041US&cm_re=81Q90041US-_-9SIA8X5AGB9160-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/Lenovo-Yoga-C940-14-Touch-i7-1065G7-12GB/dp/B08121VSGZ/ref=sr_1_1?crid=282QAW572V8YS&dchild=1&keywords=lenovo+81q90041us&qid=1586922449&sprefix=81q900%2Caps%2C162&sr=8-1",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1477622-REG/lenovo_81r00004us_s940_i7_8565u_8gb_256gb.html",
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
     ]

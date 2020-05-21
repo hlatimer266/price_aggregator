@@ -1,19 +1,23 @@
 {
     "request" : [{
-        "url":"https://www.bestbuy.com/site/hp-14-laptop-amd-a9-series-4gb-memory-amd-radeon-r5-graphics-128gb-solid-state-drive-ash-silver/6352587.p?skuId=6352587",
-        "vendor" : "bestbuy"
+        "url":"https://www.ebay.com/itm/HP-14-Inch-Laptop-AMD-A9-Series-4GB-AMD-Radeon-R5-Graphics-128GB-SSD-Silver/133390019689?epid=25035057404&hash=item1f0eaa2c69:g:Or8AAOSwVPBemxVG",
+        "html_tag":"prcIsum",
+        "vendor" : "ebay"
     },
     {
         "url": "https://www.walmart.com/ip/HP-14-Laptop-AMD-A9-Series-4GB-Memory-AMD-Radeon-R5-128GB-Solid-State-Drive-Ash-Silver-Keyboard-Frame-Natural-Silver/453344142",
+        "html_tag":"price-characteristic",
         "vendor": "walmart"
       },
       {
         "url": "https://www.newegg.com/p/1TS-000D-09DD4?Description=14-DK0002DX&cm_re=14-DK0002DX-_-1TS-000D-09DD4-_-Product&quicklink=true",
+        "html_tag":"application/ld+json",
         "vendor": "newegg"
       },
       {
-        "url": "https://www.amazon.com/HP-14-14-dk0002dx-Display-Bluetooth/dp/B086BSVVBD/ref=sr_1_12?dchild=1&m=A1OH90MA4UKR9I&marketplaceID=ATVPDKIKX0DER&qid=1587467121&s=merchant-items&sr=1-12",
-        "vendor": "amazon"
+        "url": "https://www.bhphotovideo.com/c/product/1492901-REG/hp_7kk37ut_aba_probook_445r_g6_ryzen.html",
+        "html_tag":"bhphotovideo",
+        "vendor": "price_1DPoToKrLP8uWvruGqgtaY"
       }
 
     ]
