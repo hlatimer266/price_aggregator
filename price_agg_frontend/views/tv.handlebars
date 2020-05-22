@@ -1,0 +1,20 @@
+<body>
+	<div id="title" style="display: none;">price_aggregator</div>
+
+	<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse sticky-top">
+		<a class="navbar-brand" href="/">
+			<img class="rounded-circle" src="logo.png">
+		</a>
+	</nav>
+
+<div class="container">
+	<h3>Price Aggregator</h3>
+	<h4>{{product}}</h4>
+  <ul>
+    {{#each results}}
+        <li>{{this.vendor}} - <a href={{this.url}}>{{this.price}}</a></li>
+    {{/each}}
+  </ul>
+</div>
+
+</body>
