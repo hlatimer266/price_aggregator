@@ -3,7 +3,7 @@ var brand = document.getElementById("brand");
 var model = document.getElementById("model");
 
 var tvs = ['Samsung', 'LG', 'Visio', 'TCL', 'Sony'];
-var laptops = ['Acer', 'Apple', 'ASUS', 'HP', 'Lenovo'];
+var laptops = ['Acer', 'Apple', 'Asus', 'HP', 'Lenovo'];
 var monitors = ['acer','asus','dell', 'hp', 'lenovo'];
 var phones = ['apple', 'google', 'lg', 'samsung'];
 var categories = ['tv','laptop','monitor','cell_phone']
