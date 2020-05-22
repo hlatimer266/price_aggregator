@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 
 });
 
-function call_lambda(bucket, lambda_function, handlebars_page, req, res){
+function call_lambda(category, req, res){
     const accesskey = process.env['AWSAccessKey']
     const secretkey = process.env['AWSSecretKey']
 
@@ -30,7 +30,7 @@ function call_lambda(bucket, lambda_function, handlebars_page, req, res){
     var s3 = new AWS.S3();
     var lambda = new AWS.Lambda();
     var options = {
-    	Bucket : bucket,
+    	Bucket : category + "s" + "-bb-361",
         Key : req.query.parm,
         ResponseContentType : 'application/json'
     }
@@ -39,7 +39,7 @@ function call_lambda(bucket, lambda_function, handlebars_page, req, res){
         var s3_response = data.Body.toString()
 
         var params = {
-            FunctionName: lambda_function, /* required */
+            FunctionName: "scrape_prices_" + category + "s", /* required */
             Payload: s3_response
         };
 
@@ -52,7 +52,7 @@ function call_lambda(bucket, lambda_function, handlebars_page, req, res){
             brand_model = req.query.parm.replace(".json","")
             context['product'] = brand_model.replace('/'," - ");
             console.log(context);
-    		res.render(handlebars_page, context)
+    		res.render(category + '.handlebars', context)
         });
 
     });
@@ -60,22 +60,22 @@ function call_lambda(bucket, lambda_function, handlebars_page, req, res){
 
 app.get('/monitor',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('monitors-bb-361', 'scrape_prices_monitors', 'monitor.handlebars', req, res);
+    call_lambda('monitor', req, res);
 })
 
 app.get('/cell_phone',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('phones-bb-361', 'scrape_prices_phones', 'phones.handlebars', req, res);
+    call_lambda( 'phone', req, res);
 })
 
 app.get('/tv',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('tvs-bb-361', 'scrape_prices_tvs', 'tv.handlebars', req, res);
+    call_lambda('tv', req, res);
 })
 
 app.get('/laptop',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('laptops-bb-361', 'scrape_prices_laptops', 'laptop.handlebars', req, res);
+    call_lambda( 'laptop', req, res);
 })
 
 app.listen(3000, function () {
