@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 
 });
 
-function call_lambda(bucket, lambda_function, handlebars_page, req){
+function call_lambda(bucket, lambda_function, handlebars_page, req, res){
     const accesskey = process.env['AWSAccessKey']
     const secretkey = process.env['AWSSecretKey']
 
@@ -60,17 +60,22 @@ function call_lambda(bucket, lambda_function, handlebars_page, req){
 
 app.get('/monitor',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('monitors-bb-361', 'scrape_prices_monitors', 'monitor.handlebars', req);
+    call_lambda('monitors-bb-361', 'scrape_prices_monitors', 'monitor.handlebars', req, res);
 })
 
 app.get('/cell_phone',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('phones-bb-361', 'scrape_prices_phones', 'phones.handlebars', req);
+    call_lambda('phones-bb-361', 'scrape_prices_phones', 'phones.handlebars', req, res);
 })
 
 app.get('/tv',function(req, res) {
     console.log(req.query.parm);
-    call_lambda('tvs-bb-361', 'scrape_prices_tvs', 'tv.handlebars', req);
+    call_lambda('tvs-bb-361', 'scrape_prices_tvs', 'tv.handlebars', req, res);
+})
+
+app.get('/laptop',function(req, res) {
+    console.log(req.query.parm);
+    call_lambda('laptops-bb-361', 'scrape_prices_laptops', 'laptop.handlebars', req, res);
 })
 
 app.listen(3000, function () {
