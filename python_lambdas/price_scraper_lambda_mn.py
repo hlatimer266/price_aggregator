@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import json
-
+from lowest_price import find_lowest_price
 
 def lambda_handler(event, context):
     
@@ -24,26 +24,42 @@ def lambda_handler(event, context):
                 formatted_price = "unavailable"
         elif reqs['vendor'] == "office_depot":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.span.get_text().strip()
+            try:
+                formatted_price = price.span.get_text().strip()
+            except:
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "monoprice":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try:
+                formatted_price = price.get_text().strip()
+            except:
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "ebay":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try:
+                formatted_price = price.get_text().strip()
+            except:
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "bh":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try:
+                formatted_price = price.get_text().strip()
+            except:
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "cdw":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price['content']
+            try:
+                formatted_price = price['content']
+            except:
+                formatted_price = "unavailable"
         
         if formatted_price.find("$") == -1 and formatted_price != "unavailable":
             formatted_price = "$" + formatted_price
             
         results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price), "url": str(reqs["url"])})
         
- 
+    find_lowest_price(results_obj, float(event['MSRP']))
+    
     return {
         'statusCode': 200,
         'body': json.dumps(results_obj)
