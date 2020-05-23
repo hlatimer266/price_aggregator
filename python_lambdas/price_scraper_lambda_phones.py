@@ -84,7 +84,7 @@ def lambda_handler(event,context):
             formatted_price = "$" + formatted_price
             
         results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price), "url": str(reqs["url"])})
-        
+    
     return {
         'statusCode': 200,
         'body': json.dumps(results_obj)
