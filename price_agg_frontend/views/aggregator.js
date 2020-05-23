@@ -46,54 +46,8 @@ function update_models(option, category_choice){
 	for (i = length-1; i >= 1; i--) {
  		model.options[i] = null;
 	}
-<<<<<<< HEAD
-    if (option >= 0){
-        for (i = 0; i < monitor_models[option].length; i++){
-            var opt = document.createElement("option");
-            opt.value = i;
-            opt.text = monitor_models[option][i];
-            model.add(opt, null);
-        }
-    }
-}
-function phones_options(option){
-	var length = model.options.length;
-	for (i = length-1; i >= 1; i--) {
- 		model.options[i] = null;
-	}
-    if (option >= 0){
-        for (i = 0; i < monitor_models[option].length; i++){
-            var opt = document.createElement("option");
-            opt.value = i;
-            opt.text = monitor_models[option][i];
-            model.add(opt, null);
-        }
-    }
-}
-
-function phones_options(option){
-	var length = model.options.length;
-	for (i = length-1; i >= 1; i--) {
- 		model.options[i] = null;
-	}
-    if (option >= 0){
-        for (i = 0; i < phone_models[option].length; i++){
-            var opt = document.createElement("option");
-            opt.value = i;
-            opt.text = phone_models[option][i];
-            model.add(opt, null);
-        }
-    }
-}
-
-function phones_options(option){
-	var length = model.options.length;
-	for (i = length-1; i >= 1; i--) {
- 		model.options[i] = null;
-=======
 	if (category_choice == 1) {
 	    models = tv_models;
->>>>>>> master
 	}
 	if (category_choice == 2) {
 	    models = laptop_models;
