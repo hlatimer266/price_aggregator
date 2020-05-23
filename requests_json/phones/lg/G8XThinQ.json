@@ -1,7 +1,7 @@
 {
     "request" : [
     {   
-        "url": "https://www.newegg.com/black-lg-k30-5-3-4g-lte/p/N82E16875136496?Description=phones&cm_re=phones-_-9SIA25VA0U3274-_-Product", 
+        "url": "https://www.newegg.com/p/23B-0007-001K0?Description=lg%20g8x%20thinq&cm_re=lg_g8x_thinq-_-23B-0007-001K0-_-Product&quicklink=true", 
         "html_tag": "application/ld+json", 
         "vendor" :  "newegg" 
     }, 
