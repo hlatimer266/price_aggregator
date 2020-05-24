@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import re
 import json
+from lowest_price import find_lowest_price
 
 def lambda_handler(event,context): 
 
@@ -45,6 +46,8 @@ def lambda_handler(event,context):
             formatted_price = price.get_text().strip()
         
         results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price)})
+
+    find_lowest_price(results_obj, float(event['MSRP']))
         
  
     return {
