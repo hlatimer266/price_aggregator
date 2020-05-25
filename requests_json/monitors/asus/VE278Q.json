@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.officedepot.com/a/products/860316/Asus-VE278Q-27-HD-LED-LCD/", 
+        "html_tag": "unified_price_row unified_sale_price red_price", 
+        "vendor" : "office_depot" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Asus-VE278QB-VE278Q-27-Full-HD-LED-Monitor-w-Integrated-Speakers/15421269?wmlspartner=wlpa&selectedSellerId=1912&adid=22222222227000000000&wl0=&wl1=g&wl2=c&wl3=42423897272&wl4=aud-430887228898:pla-51320962143&wl5=9032917&wl6=&wl7=&wl8=&wl9=pla&wl10=112549731&wl11=online&wl12=15421269&veh=sem&gclid=Cj0KCQjwm9D0BRCMARIsAIfvfIZYGqKndmAeviEdTC-PqLDWvSDPxvcn4_kd8kGaRBux4Jv7t5C4-hUaAjKAEALw_wcB",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.monoprice.com/product?p_id=17124",
+        "html_tag": "sale-price",
+        "vendor": "monoprice"
+      },
+      {
+        "url": "https://www.ebay.com/p/108868668",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ], 
+    "MSRP": "195.99"
+}

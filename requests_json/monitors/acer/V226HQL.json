@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.officedepot.com/a/products/956021/Acer-V226HQL-215-FHD-LED-Monitor/?cm_mmc=PLA-_-Google-_-Monitors-_-956021&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHn9pAacx6-zicQRgKqU22QtVhRMSHphqfJd69eAh3XLOAjePXHjyvBoClocQAvD_BwE&gclsrc=aw.ds", 
+        "html_tag": "unified_price_row unified_sale_price red_price", 
+        "vendor" : "office_depot" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/1080-V226HQL-18-10-21-5-Black-Full-MPR-Monitor-W-EPEAT-Million-II-ms-LED-LCD-Adjustable-Acer-Gold-1920-VGA-200-16-9-Colors-Angle-5-DVI-x-Nit-16-7-HD-/186710983?wmlspartner=wlpa&selectedSellerId=3937&adid=22222222227040758114&wl0=&wl1=g&wl2=c&wl3=100279120234&wl4=aud-430887228898:pla-238137513874&wl5=9032917&wl6=&wl7=&wl8=&wl9=pla&wl10=113537325&wl11=online&wl12=186710983&veh=sem&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHoMd_sIKHjme1zxkgKhVPq1gE64HYht-E1rX7sLiTqPgWdkJ5baEtBoC034QAvD_BwE",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.monoprice.com/product?p_id=18037&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHoX-Rmk4FG1PNgMgSXJiEmy8SC0_Y99vABCv5yQvisCRWpW9aPiYXhoCscgQAvD_BwE",
+        "html_tag": "sale-price",
+        "vendor": "monoprice"
+      },
+      {
+        "url": "https://www.ebay.com/p/168468671?iid=323924539140&chn=ps&norover=1&mkevt=1&mkrid=711-117182-37290-0&mkcid=2&itemid=323924539140&targetid=884108885999&device=c&mktype=pla&googleloc=9032917&poi=&campaignid=9423618396&mkgroupid=95235844226&rlsatarget=pla-884108885999&abcId=1141016&merchantid=6296724&gclid=Cj0KCQjw-Mr0BRDyARIsAKEFbedBnw19txgXETV8xeuz_ZVVVZ3aHZp3EJ7AtzBACmutueX_Z0zSCmEaAt3EEALw_wcB&thm=1000",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "95.99"
+}

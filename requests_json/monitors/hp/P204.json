@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1482154-REG/hp_5rd65a8_aba_p204_19_5_16_9_tn.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-P204-19-5-inch-Monitor/967327819",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/hp-smartbuy-p204-19.5-hd-250cd-m-tn-led-backlight-monitor/5557207",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/11032148806",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "64.00"
+}

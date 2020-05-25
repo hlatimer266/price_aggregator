@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1482150-REG/hp_5qg36a8_aba_p274_27_16_9_ips.html?sts=pi&pim=Y", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-P274-27-inch-Monitor/860642099",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/hp-smartbuy-p274-27-250cd-m-ips-led-backlight-fhd-monitor/5557234?pfm=srh",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/27032373269",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "215.99"
+}

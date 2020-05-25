@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1124309-REG/hp_k5a38aa_aba_24uh_24_inch_led_backlit.html?sts=pi&pim=Y", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-24uh-LED-Backlit-Monitor-24-1-VGA-1-DVI-Basic-Gaming-K5A38AA-ABA/42807950",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/hp-24uh-24-led-backlit-lcd-black/3623331?enkwrd=HP+K5A38AA",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/220359861",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "119.99"
+}
