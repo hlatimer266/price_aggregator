@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/ASUS-VivoBook-15-X512FA-15-6-FHD-i7-8565U-12GB-256GB-SSD-Silver/324069890229?epid=26035080044&hash=item4b741218b5:g:HOkAAOSw-wVeld5A",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/26035080044",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {

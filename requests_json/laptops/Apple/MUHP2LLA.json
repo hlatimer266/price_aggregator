@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Apple-MacBook-Pro-13-with-Touch-Bar-i5-8GB-256GB-Space-Gray-MUHP2LL-A/184284393800?epid=2303863019&hash=item2ae834b148:g:zRUAAOSwiJRePBEj",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/2303863019",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {

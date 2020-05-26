@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/ASUS-Q536FD-BI7T15-15-6-4K-UHD-Touch-i7-8565U-1-8GHz-16GB-2TB-256GB-GTX1050-W10/283867956213?epid=11034589785&hash=item4217d943f5:g:6bYAAOSwae9esHo7",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/11034589785",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
