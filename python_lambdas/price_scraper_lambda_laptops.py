@@ -38,7 +38,7 @@ def lambda_handler(event,context):
         elif reqs['vendor'] == "ebay":
             price = soup.find(class_=reqs['html_tag'])
             try:
-                formatted_price = price['content']
+                formatted_price = price.get_text().strip()
             except:
                 formatted_price = "unavailable"
         elif reqs['vendor'] == "bhphotovideo":

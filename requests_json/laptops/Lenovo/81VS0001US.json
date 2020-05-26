@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/IdeaPad-1-14-1366-x-768-HD-4GB-W10H-14-inches-AMD-Radeon-R4-Gray-A6-9220e/303558923447?hash=item46ad8594b7:g:PTwAAOSwvHletk5A",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/26035125823",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {

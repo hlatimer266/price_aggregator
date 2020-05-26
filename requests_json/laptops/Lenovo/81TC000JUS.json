@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C740-2-in-1-14-Touch-Screen-Laptop-Intel-Core-i5-8GB-Memor/202807946667?epid=18035250812&hash=item2f384badab:g:XBAAAOSw5v9ds5mN",
-        "html_tag": "prcIsum",
+        "url":"https://www.ebay.com/p/18035250812",
+        "html_tag": "display-price",
         "vendor" : "ebay"
     },
     {

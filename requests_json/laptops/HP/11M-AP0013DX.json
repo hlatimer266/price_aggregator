@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Pavilion-x360-11-6-N5000-11-6-inches-Touchscreen-TOUCH-4GB-Touch-W10H-Silver/293569119841?hash=item445a154661:g:8PMAAOSw9~xetD28",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/1331462826?iid=113181172495",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {

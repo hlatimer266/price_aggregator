@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url": "https://www.ebay.com/itm/Acer-Nitro-5-AN515-54-54W2-15-6-FHD-i5-9300H-NVIDIA-GTX-1050-8GB-256GB/324069933663?epid=5034604525&hash=item4b7412c25f:g:~RsAAOSwOiReleF8",
-        "html_tag":"prcIsum",
+        "url": "https://www.ebay.com/p/5034604525",
+        "html_tag":"display-price",
         "vendor": "ebay"
     },
     {
