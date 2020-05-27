@@ -1,24 +1,24 @@
 {
     "request" : [{
-        "url": "https://www.walmart.com/ip/SAMSUNG-65-Class-4K-UHD-2160p-LED-Smart-TV-with-HDR-UN65NU6900/654638449",
-        "html_tag": "price-characteristic",
-        "vendor": "walmart"
-      },
-      {
-        "url": "https://www.bhphotovideo.com/c/product/1411428-REG/samsung_un65nu6900fxza_nu6900_series_65_class_hdr_uhd.html",
-        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
-        "vendor": "bh"
-      },
-      {
-        "url": "https://www.newegg.com/samsung-series-6-65/p/N82E16889356451?Description=UN65NU6900FXZA&cm_re=UN65NU6900FXZA-_-89-356-451-_-Product&quicklink=true",
-        "html_tag": "application/ld+json",
-        "vendor": "newegg"
-      },
-      {
-        "url": "https://www.abt.com/product/125241/Samsung-65-Glossy-Black-UHD-4K-HDR-LED-Smart-HDTV-UN65NU6900FXZA.html",
-        "html_tag": "price",
-        "vendor": "abt"
-      }
-
-    ]
+      "url": "https://www.walmart.com/ip/SAMSUNG-65-Class-4K-UHD-2160p-LED-Smart-TV-with-HDR-UN65NU6900/654638449",
+      "html_tag": "price-characteristic",
+      "vendor": "walmart"
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1411428-REG/samsung_un65nu6900fxza_nu6900_series_65_class_hdr_uhd.html",
+      "html_tag": "price_1DPoToKrLP8uWvruGqgtaY",
+      "vendor": "bh"
+    },
+    {
+      "url": "https://www.newegg.com/samsung-series-6-65/p/N82E16889356451?Description=UN65NU6900FXZA&cm_re=UN65NU6900FXZA-_-89-356-451-_-Product&quicklink=true",
+      "html_tag": "application/ld+json",
+      "vendor": "newegg"
+    },
+    {
+      "url": "https://www.abt.com/product/125241/Samsung-65-Glossy-Black-UHD-4K-HDR-LED-Smart-HDTV-UN65NU6900FXZA.html",
+      "html_tag": "price",
+      "vendor": "abt"
+    }
+    ],
+    "MSRP": "549.99"
 }
