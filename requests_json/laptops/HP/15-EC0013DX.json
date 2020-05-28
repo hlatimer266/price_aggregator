@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/HP-15-6-Gaming-Laptop-AMD-Ryzen-5-8GB-Memory-NVIDIA-GeForce-GTX-1050/392776321640?epid=7035198816&hash=item5b734b0a68:g:r7kAAOSw4HFepFlj",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/7035198816",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "699.99"
 }

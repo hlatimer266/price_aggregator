@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/ASUS-ROG-Zephyrus-G-15-6-Gaming-Laptop-AMD-Ryzen-7-16GB-Memory-NVIDI/202985733310?epid=21034149158&hash=item2f42e47cbe:g:HV4AAOSwQQxcydZ0",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/21034149158",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "1099.99"
 }

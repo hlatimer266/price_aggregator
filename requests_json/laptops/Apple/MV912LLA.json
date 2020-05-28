@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Apple-MacBook-Pro-15-4-Touch-Bar-i9-9880H-16GB-512GB-MV912LL-A-Space-Gray/164030645678?epid=14032109009&_trkparms=ispr%3D1&hash=item2630fd05ae:g:01kAAOSw1y1eHTC3&enc=AQAEAAACYIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKym2Jdff8P6pcVkPslsrmD6xX9kqrTyNGgOqShsq%2BEBvkpul4eTpk5%2FY7HHLr9aOk5oUctkLL1Phi2RFBPqkwjoM8tPZtsVVT%2FqWhyVb95VUIXBgAr5PCDirYMfk0VGwNecmis%2BKL3ew1oaOgMVC3hpRIrZjoDpjQ4QKixCuDbf7WZK%2BbCNBnKbwbF5mNQC5X0hxaCPI3RJyo7Cg9w812oGwbDX%2B3kSC42PQxc3bLtcCm0H2p2eCrZsvw3Z%2BPT3uHZhAPP5ekmHS77QWJKAYDQ86WHVDOEwUjIbi5yzq544uDOU2TKMPFiIqgmFExwlkFnfLo%2Fc7KFrk8CMO0R6niGyTzIGpgOw1A511yvaUO1xE9PERxFKt20n1AzyMASGa%2B9bLDedKc4%2Femu26ZRWp2hGxsN3ArtEqplWyopBUpSihdKHFyMKgH%2Bh9%2FaiaQWx6CUpWXIlg2qVHY3FVX2LnrG2NvEFgKtF0vEYJuhY0HRELYZ7GkG80%2Fdh35h32m8L1uudk8us52YqG02MhhPkKt0JhRZnZb7BsSwjU9L928G5XRCs1lOkQoNxUKXflIJQWaQHu9ae%2FRxhULE%2FU%2BPpSWLT9QtFZIf8l6%2FADxXfWb7hXiq%2B%2Bme3deczuoeOUjugqJfdty9kAYed8617xk9%2FRuv1x8VUAPLFcoBMVC3ieC3Vw2aSIcYHjEebIlMPcOLAsqJBKk16twwvr6Lq14YH0zwec8PVRhAULvfCNRBTRVBSv1I0l46rxXO5YIjp7EkYc7&checksum=1640306456787a2912a7787946bab7dc79fe3660db32",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/14032109009",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "shopdevicesnow"
       }
 
-    ]
+    ],
+    "MSRP": "2799.99"
 }

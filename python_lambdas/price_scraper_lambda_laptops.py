@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import re
 import json
+from lowest_price import find_lowest_price
 
 def lambda_handler(event,context): 
 
@@ -43,10 +44,14 @@ def lambda_handler(event,context):
         elif reqs['vendor'] == "bhphotovideo":
             price = soup.find(class_=reqs['html_tag'])
             formatted_price = price.get_text().strip()
+            
+        if formatted_price.find("$") == -1 and formatted_price != "unavailable":
+            formatted_price = "$" + formatted_price
         
-        results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price)})
+        results_obj['results'].append({'vendor': str(reqs['vendor']), 'price': str(formatted_price), "url": str(reqs["url"])})
         
- 
+    find_lowest_price(results_obj, float(event['MSRP']))
+    
     return {
         'statusCode': 200,
         'body': json.dumps(results_obj)

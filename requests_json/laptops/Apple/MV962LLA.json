@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Apple-Macbook-Pro-13-w-TouchBar-Intel-Core-i5-8GB-256GBSSD-Space-Gray-MV962LL-A/164030699728?hash=item2630fdd8d0:g:b5kAAOSw8iJeHUEn",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/2303158019",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "current_price"
       }
 
-    ]
+    ],
+    "MSRP": "1699.99"
 }

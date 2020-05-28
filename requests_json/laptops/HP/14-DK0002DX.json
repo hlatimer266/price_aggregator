@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/HP-14-Inch-Laptop-AMD-A9-Series-4GB-AMD-Radeon-R5-Graphics-128GB-SSD-Silver/133390019689?epid=25035057404&hash=item1f0eaa2c69:g:Or8AAOSwVPBemxVG",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/25035057404",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -16,9 +16,10 @@
       },
       {
         "url": "https://www.bhphotovideo.com/c/product/1492901-REG/hp_7kk37ut_aba_probook_445r_g6_ryzen.html",
-        "html_tag":"bhphotovideo",
-        "vendor": "price_1DPoToKrLP8uWvruGqgtaY"
+        "html_tag":"price_1DPoToKrLP8uWvruGqgtaY",
+        "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "399.99"
 }

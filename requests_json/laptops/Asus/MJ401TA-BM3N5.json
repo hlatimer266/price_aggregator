@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Brand-New-ASUS-MJ401TA-BM3N5-14-Laptop-Intel-Core-M3-4GB-128GB-SSD-Win-10/143584181176?hash=item216e48bbb8:g:dlMAAOSwQ8Vem02I",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/28035067756",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "499.99"
 }

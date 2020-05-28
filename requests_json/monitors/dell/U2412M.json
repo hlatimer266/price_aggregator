@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/829236-REG/Dell_469_1137_U2412M_UltraSharp_24_LED.html", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/Dell-UltraSharp-U2412M-LED-monitor-24/21281827",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/dell-ultrasharp-24-u2412m-24-led-backlit-lcd-monitor-black/3848457?pfm=srh",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/108867251",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "249.99"
+}

@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Apple-13-3-MacBook-Pro-with-Touch-Bar-Space-Gray-MUHN2LL-A-Mid-2019/164044985652?epid=14032813598&hash=item2631d7d534:g:vEUAAOSwU0VeKaiY",
-        "html_tag": "prcIsum",
+        "url":"https://www.ebay.com/p/14032813598",
+        "html_tag": "display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "shopdevicesnow"
       }
 
-    ]
+    ],
+    "MSRP": "1199.99"
 }

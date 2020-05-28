@@ -20,5 +20,6 @@
         "html_tag": "PricesalesPrice", 
         "vendor" : "overseas" 
     }
-    ]
+    ], 
+    "MSRP": "399.99"
 }

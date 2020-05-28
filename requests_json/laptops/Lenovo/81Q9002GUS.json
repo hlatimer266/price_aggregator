@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C940-2-in-1-14-FHD-TouchScreen-10th-Gen-i7-1065G7-12GB-512GB-SSD-FPR/233509613159?epid=19035661160&hash=item365e41ee67:g:S60AAOSw5eRereBc:sc:FedExHomeDelivery!14621!US!-1",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/19035661160",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "1299.99"
 }

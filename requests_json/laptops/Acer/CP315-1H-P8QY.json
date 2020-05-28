@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url": "https://www.ebay.com/itm/Acer-Chromebook-Spin-15-Cp315-1h-p8qy-15-6-Touchscreen-Lcd-2-In-1-Chromebook/233550998121?epid=23024821936&hash=item3660b96a69:g:f3cAAOSwK05el5Ov",
-        "html_tag":"prcIsum",
+        "url": "https://www.ebay.com/p/23024821936",
+        "html_tag":"display-price",
         "vendor": "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "399.99"
 }

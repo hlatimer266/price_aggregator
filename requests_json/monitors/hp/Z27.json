@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.bhphotovideo.com/c/product/1410166-REG/hp_2tb68a8_aba_hp_z27_27_4k.html?sts=pi&pim=Y", 
+        "html_tag": "price_1DPoToKrLP8uWvruGqgtaY", 
+        "vendor" : "bh" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/HP-Z27-27-inch-4K-UHD-Display/834276976",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.cdw.com/product/hp-z27-led-monitor-27-smart-buy/5066186",
+        "html_tag": "price-type-selected",
+        "vendor": "cdw"
+      },
+      {
+        "url": "https://www.ebay.com/p/28019412809",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "530.00"
+}

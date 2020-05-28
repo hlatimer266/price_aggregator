@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/HP-2-in-1-14-Touch-Screen-Chromebook-Intel-Core-i3-8GB-Memory-64GB-e/324112628076?epid=28035152759&hash=item4b769e396c:g:dpEAAOSwWGJds5iu",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/28035152759?iid=164044162729",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "599.99"
 }

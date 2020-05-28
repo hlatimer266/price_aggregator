@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/NEW-Acer-Gaming-Laptop-AN515-54-51M5-GTX-1650-1TB-HD-128GB-SSD-i5-8GB-Notebook/373026210498?epid=2306090875&hash=item56da1842c2:g:y1EAAOSwXwtc9BPQ",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/i/312704672413?chn=ps",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "shopdevicesnow"
       }
 
-    ]
+    ],
+    "MSRP": "829.99"
 }

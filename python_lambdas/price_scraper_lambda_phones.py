@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import json
 import re
+from lowest_price import find_lowest_price
 
 def lambda_handler(event,context): 
 
@@ -33,7 +34,10 @@ def lambda_handler(event,context):
                 formatted_price = "unavailable"
         elif reqs['vendor'] == "shopdevicesnow":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "ebay":
             price = soup.find(class_=reqs['html_tag'])
             try:
@@ -42,7 +46,10 @@ def lambda_handler(event,context):
                 formatted_price = "unavailable"
         elif reqs['vendor'] == "bhphotovideo":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "overseas":
             try:
                 price = soup.find(class_="PricesalesPrice")
@@ -51,22 +58,36 @@ def lambda_handler(event,context):
                 formatted_price = "unavailable"
         elif reqs['vendor'] == "hsn":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "all":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "macofalltrades":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
         elif reqs['vendor'] == "cellbrokers":
             price = soup.find(class_=reqs['html_tag'])
-            formatted_price = price.get_text().strip()
+            try: 
+                formatted_price = price.get_text().strip()
+            except: 
+                formatted_price = "unavailable"
             
         if formatted_price.find("$") == -1 and formatted_price != "unavailable":
             formatted_price = "$" + formatted_price
             
         results_obj["results"].append({"vendor": str(reqs["vendor"]), "price": str(formatted_price), "url": str(reqs["url"])})
-        
+    
+    find_lowest_price(results_obj, float(event['MSRP']))
+    
     return {
         'statusCode': 200,
         'body': json.dumps(results_obj)

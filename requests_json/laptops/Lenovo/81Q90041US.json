@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url":"https://www.ebay.com/itm/Lenovo-Yoga-C940-2-in-1-14-4K-Ultra-HD-Touch-Screen-Laptop-Intel-Core-i7/202807946672?epid=23035069898&hash=item2f384badb0:g:4agAAOSwJU5ds5mN",
-        "html_tag":"prcIsum",
+        "url":"https://www.ebay.com/p/23035069898",
+        "html_tag":"display-price",
         "vendor" : "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "bhphotovideo"
       }
 
-    ]
+    ],
+    "MSRP": "1632.99"
 }

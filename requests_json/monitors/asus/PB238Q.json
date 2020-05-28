@@ -1,0 +1,25 @@
+{
+    "request" : [{
+        "url":"https://www.officedepot.com/a/products/771172/Asus-PB238Q-23-FHD-LED-Monitor/", 
+        "html_tag": "unified_price_row unified_sale_price red_price", 
+        "vendor" : "office_depot" 
+    },
+    {
+        "url": "https://www.walmart.com/ip/1080-23-250-Full-80-000-000-1-Monitor-Blac-DisplayPort-Million-USB-ms-LED-Speakers-LCD-Adjustable-Asus-PB238Q-1920-VGA-16-9-Colors-Angle-6-DVI-x-Nit-/134083436",
+        "html_tag": "price-characteristic",
+        "vendor": "walmart"
+      },
+      {
+        "url": "https://www.monoprice.com/product?p_id=17131",
+        "html_tag": "sale-price",
+        "vendor": "monoprice"
+      },
+      {
+        "url": "https://www.ebay.com/p/141640981",
+        "html_tag": "display-price",
+        "vendor": "ebay"
+      } 
+
+    ],
+    "MSRP": "235.00"
+}

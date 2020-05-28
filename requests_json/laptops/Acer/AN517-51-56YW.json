@@ -1,7 +1,7 @@
 {
     "request" : [{
-        "url": "https://www.ebay.com/itm/Nitro-5-17-3-HD-Full-17-3-inches-8GB-GTX-1650-Black-1920-x-1080-Full-HD-W10H/303559001579?hash=item46ad86c5eb:g:ragAAOSwwW9etEJf",
-        "html_tag":"prcIsum",
+        "url": "https://www.ebay.com/p/19035752411",
+        "html_tag":"display-price",
         "vendor": "ebay"
     },
     {
@@ -20,5 +20,6 @@
         "vendor": "shopdevicesnow"
       }
 
-    ]
+    ],
+    "MSRP": "879.99"
 }
